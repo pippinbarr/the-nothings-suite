@@ -2,7 +2,7 @@
 
 [![Splash](info/images/splash.png)](https://pippinbarr.github.io/the-nothings-suite/)
 
-*Sure, great works of cinema are great! But aren't they missing something?! Yes! They're missing tanks! Move over Orson Welles! Move over Robert DiNiro! These tanks are ready for their close-up!*
+*...*
 
 ---
 
