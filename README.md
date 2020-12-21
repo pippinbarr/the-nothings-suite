@@ -9,6 +9,7 @@
 _The Nothings Suite_ ...
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/twine/) (Twine)
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/bitsy/) (Bitsy)
 
 ---
 
