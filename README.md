@@ -10,6 +10,8 @@ _The Nothings Suite_ ...
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/twine/) (Twine)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/bitsy/) (Bitsy)
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/flickgame/) (flickgame)
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/) (PuzzleScript)
 
 ---
 
