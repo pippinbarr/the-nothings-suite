@@ -12,6 +12,7 @@ _The Nothings Suite_ ...
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/bitsy/) (Bitsy)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/flickgame/) (flickgame)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/) (PuzzleScript)
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/inform7/Nothing.gblorb) (Inform 7)
 
 ---
 
