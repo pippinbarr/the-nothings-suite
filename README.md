@@ -29,4 +29,4 @@ _The Nothings Suite_ ...
 
 ---
 
-_Combat at the Movies_ is an open source game licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/). You can obtain the source code from its [code repository](https://github.com/pippinbarr/the-nothings-suite) on GitHub.
+_The Nothings Suite_ is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
