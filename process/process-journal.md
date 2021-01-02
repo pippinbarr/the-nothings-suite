@@ -103,3 +103,39 @@ A quick note because it's been circling my mind: it feels like it would be nice 
 And that makes me wonder more generally about surfacing some kind of accessible rundown of each project. Not quite the Closing Statement thing, but perhaps replacing it or something. An accessible summation, separate from any more "academic" write-up I try to do. or maybe you don't replace the discussion but instead right a shorter, more thrifty explanation of what went on and why?
 
 Anyway for now I just want to flag this is a thing I want to think about and try to include in this overall project.
+
+---
+
+# Inform 7 (Saturday, 2 January 2021, 12:37PM)
+
+## [Inform 7](http://inform7.com/)
+
+I've used Inform 7 twice now, once for [Kicker](https://www.pippinbarr.com/2012/11/23/kicker/) and once for the [Text Adventure](https://www.pippinbarr.com/games/2020/01/10/lets-play-ancient-greek-punishment-the-text-adventure.html) edition of Let's Play: Ancient Greek Punishment. I've never found it to be an easy language/environment, it's full of weird things you have to understand and weird (to me) ways of expressing ideas in almost natural (but ultimately quite unnatural) language. I vaguely wonder whether a more standard programming representation of the same underlying structures could be easier quite frankly. The spectre of natural language makes it a bit easier to get things wrong for me, because it prevents me from thinking in terms of more rigorous syntax.
+
+To produce the nothing was relatively straightforward. It was one of the first I went for and as such was part of my debate about whether "nothing" should be represented with empty source code where applicable. Inform 7 is one of those engines that simply doesn't compile without some basic content (you have to have a room). When you load a project it does have a standard "example room" all present and accounted for, though, so you can export that. I took the liberty of explicitly naming the project "Nothing", since that's been a consistent theme across the project, but it's perhaps a little dodgy given that this is a case where it's optional. Although now I go back and look at the process I see that when you create a new project you get to title it on creation. Initially I'd kept the default (Untitled), but these days I title the project Nothing each time for a bit of completeness. It also auto-adds my authorship which I think is kind of interesting.
+
+The entirety of the source is:
+
+```
+"Nothing" by Pippin Barr
+
+Example Location is a room.
+```
+
+Which is pleasing in its blankness and also its non-nothingness.
+
+Inform 7 turns out to be one of the more interesting Nothings for me for a couple of reasons. First (maybe less interesting) is that I found out I couldn't export to HTML5 even though the engine is capable of it because to do so requires adding to the source code - it's in Inform's nature that you do almost everything through language in its source, rather than through menu options for example. So to export as HTML you need to add
+
+```
+Release along with an interpreter.
+```
+
+But of course that's no longer the same Nothing that you begin with. It does raise the question of whether even exporting these things is some kind of rule violation, or whether exporting them in a "non-native" (whatever that means) format is some kind of rule violation. Of course, I'm making the rules here, and it seems legit to me to export, for example, Unity in WEBGL. But it raises some kind of question about the difference between doing that with menus and doing that with text inside the source code. I guess my rule is just that there shouldn't be alterations of the source, pretty fundamentally. In a way, it's a data-oriented view of nothing: no additional data added by me (except the title).
+
+So the end result of not adding the interpreter line is that I can't release the game in any form except a `.gblorb` file, which can only be used with a separate interpreter. I think that's kind of fun, that it also invites you, in a way, into the larger world of these kinds of text adventures. Playing the nothing gives you something that would let you engage with IF - an interpreter.
+
+The other thing that is maybe more interesting is that way that the nature of Inform 7 as an parser-based system exposes all the potential that exists in a way that other engines do not. Most of the Nothing end up loading some kind of static, non-interactive experience of one kind of another. Because Inform 7 is interpreted there's a ton of built-in response (that you would normally override) to all these built-in verbs you can use. In the example room you can kind of run, look, jump, sleep, etc. etc. etc. It builds a very definitely sense of presence in this nowhere. You can look at the room you're in, for instance, and see literally nothing (not even text saying you don't see anything). You can hug yourself. And so on. So it's a way of showing all the stuff that's built in - it still serves as a way to explore Inform 7 itself and its default possibilities, or at least a number of them.
+
+For what it's worth the `Nothing.gblorb` is 604KB. Not huge, not tiny. I suppose that tells us something about a division of labour between what the interpreter software would do and what the story data is composed of. I'm a little unclear on what's going on in there, though, as the `.gblorb` isn't human-readable. Clearly it's more than just a representation of my source code. Perhaps it's a representation of all the default possibilities an Inform 7 game has?
+
+Anyway, Inform 7 is definitely one of the interesting ones, huh?
