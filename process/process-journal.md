@@ -81,3 +81,25 @@ For that reason it's pretty interesting that the actual PuzzleScript source for 
 PuzzleScript being implemented in the browser, it's actually a higher order language on top of JavaScript, so in this particular nothing you of course end up not just with the PuzzleScript source but the source of the PuzzleScript engine on top. In this case the engine is obfuscated through minification to reduce the file size, and it still only comes in at 296KB which is kind of impressive for an entire engine! (Godot is in the background downloading some 400MB template file just to be able to export anything right now, that's over 1300 PuzzleScript engines). It's not actually as easy as I'd expected to find the source of PuzzleScript (it's not obviously linked from the running engine itself), but it's easy enough to google up: https://github.com/increpare/PuzzleScript. I'm not going to go through the source code itself, but it's interesting somehow that this repository is representative of the "nothing" I have in this suite, just in an expanded and (much) more legible form.
 
 So the aesthetics of this nothing are very detailed, very not-nothing, and very educational in terms of the engine. They show you the most obvious kind of thing to make with it (Sokobans) and they provide a tiny use case along with its source to help you understand basic possibilities.
+
+---
+
+# PICO-8, presentation (Friday, 1 January 2021, 14:05PM)
+
+## [PICO-8](https://www.lexaloffle.com/pico-8.php), by [Lexaloffle](https://www.lexaloffle.com/info.php)
+
+This was one of the more complicated nothings to produce because the PICO-8 system itself has a learning curve just to understand how to export anything at all. I also had to buy the "fantasy console" to get going, because although I did have a copy already (somehow? from the Old Days?) I wanted to get the latest version and couldn't find any record of having bought it.
+
+Loading up PICO-8 just gets you a command line, so I ended up having to look a bunch of stuff up in the documentation just to create the basics. That mostly meant creating a new `.P8` source code file and making sure there was nothing inside it, then figuring out how to export that file as HTML5, which also involved needing to take screenshot for the thumbnail. Though as I sit here I'm thinking: why did I do that? Then I remember that it's because it literally wouldn't export without the thumbnail and that is why I did it. Rather than take a screenshot at the precise moment I needed it (perhaps more authentically nothing) I took it of a "blank" screen in the command line. I feel lightly troubled by that aspect of my process.
+
+Experientially the nothing involves the screenshot with a play button on it. When you his play the console loads and does a little flashy intro thing, then gets stuck on "`BOOTING CARTRIDGE...`". I can't tell just by look at it whether there's some internal error in the console caused by the cartridge (source code) being empty, or whether this could be considered the correct behaviour for the console. You load the nothing and then the nothing issues no instructions to get you beyond that loading moment? Hard to say without looking deeply into the source code of PICO-8 itself.
+
+Exported, you end up with an HTML file and a JavaScript file. Quite substantial, both, that JavaScript especially. It's 1.5MB in size, not nothing at all. I guess it's a whole fantasy console in there, doing nothing. I guess this makes me think, in this moment, of this idea present in most of the nothings of potential unrealized - complex structures of code sitting idle or almost idle, paths unfollowed, computation uncomputed. All very poetic and pathos-filled.
+
+## Presentation thoughts
+
+A quick note because it's been circling my mind: it feels like it would be nice to tie writing about this project more closely to the individual nothings with some kind of "discussion" link per nothing that would have a fairly accessible run down of what I think about it? Probably in the vein of the writing above, but tidied up to be a bit more readable etc., maybe with some specific links to commits or files in the actual repo and so on.
+
+And that makes me wonder more generally about surfacing some kind of accessible rundown of each project. Not quite the Closing Statement thing, but perhaps replacing it or something. An accessible summation, separate from any more "academic" write-up I try to do. or maybe you don't replace the discussion but instead right a shorter, more thrifty explanation of what went on and why?
+
+Anyway for now I just want to flag this is a thing I want to think about and try to include in this overall project.
