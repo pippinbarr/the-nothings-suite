@@ -139,3 +139,60 @@ The other thing that is maybe more interesting is that way that the nature of In
 For what it's worth the `Nothing.gblorb` is 604KB. Not huge, not tiny. I suppose that tells us something about a division of labour between what the interpreter software would do and what the story data is composed of. I'm a little unclear on what's going on in there, though, as the `.gblorb` isn't human-readable. Clearly it's more than just a representation of my source code. Perhaps it's a representation of all the default possibilities an Inform 7 game has?
 
 Anyway, Inform 7 is definitely one of the interesting ones, huh?
+
+---
+
+# Ren'Py, Godot (Monday, 4 January 2021, 10:26AM)
+
+## [Ren'Py](https://www.renpy.org/)
+
+I was interested to look at Ren'Py because it's definitely part of my consciousness, I suppose chiefly because of that Dating one called...? *Save the Date*, that's right. Anyway, that's what I know Ren'Py as to some extent, but more generally than that I think of the visual novel thing as both very alien (I bounced off the few I've tried pretty hard) and as important/super popular. So, "using" Ren'Py would be interesting.
+
+However, in creating the nothing it pointed out another element of all this, which is that making nothing in an engine doesn't necessarily tell you very much about what it's like to use the engine to make anything. To make nothing in Ren'Py was a bit of a process with multiple setup screens like these two:
+
+![](images/renpy-setup-1.png)
+*Selecting a resolution*
+
+![](images/renpy-setup-2.png)
+*Selecting a color palette*
+
+But after that it exported without much difficulty on my end. Because I didn't really engage with producing any content, I really have no idea how you make anything in Ren'Py. This is different to my experience with something like Inform 7, for example, where I know a bunch about the underlying framework of the engine and what it provides, so I can kind of sense the depth of the nothing. With Ren'Py I really can't.
+
+In terms of the experience of the resulting nothing, it's pretty elaborate! It first loads stuff with a little loading back and even downloads and extracts a specific data file (with my nothing in it I suppose). There's a big splash screen with "Ren'Py loading..." and a woman holding a globe in her hands. Very elaborate and very, very specific aesthetic. I assume you would replace this stuff if you were making something for real, but it's interesting that it's in there and tells us some things about the basic expected use/genre of Ren'Py. Once loaded, you get an entire menu system for "Nothing 1.0" including the ability to Start, Load, set Preferences, read About it, and get Help! This is a ton of functionality I didn't put in there, all placeholder.
+
+Help gives me some default guidance on keyboard commands within the Ren'Py reader. The About contains a reference to the specific Ren'Py version and some licensing information. Preferences lets me set a ton of reading preferences. Load lets me load notional saved games. Start lets me start this one...
+
+When you Start the nothing you get a couple of overlapping red errors at the top due to files I haven't provided, which is kind of interesting - they have no default provided so you get actual problems right away. You also get some dialog from a character called Eileen who's saying placeholder text about how I've created a new Ren'Py game and how I can add the story and pictures and then release it to the world. Then the game ends. At the bottom while the story runs are a host more menu items including saving, skipping, preferences, etc. There is just a ton of framework around the core of nothingness I provided. I guess this tells us just how structured Ren'Py is, perhaps more than the other engines I've looked at it has really rigorous expectations for how things will be and builds a larger set of tools than something like Twine. It's more "professional" in that way?
+
+In terms of the source itself, there are a lot of files involved in this and the overall directory of Ren'Py stuff is 8.4MB, so quite significant given it's an empty experience (sort of). I sort of feel overwhelmed by all the different components here, the lion's share of which I suppose are based around getting Ren'Py into HTML5 form. There's no easy-to-read instance of the "nothing" data I actually provided to the game.
+
+## [Godot](https://godotengine.org/)
+
+Godot is one of those important engines that I would in principle like to use or have used, but haven't because I already learned Unity and don't have the energy or virtue to learn Godot properly. Or something along those lines. Really enjoy that it's Open Source and noble. As with Ren'Py, just producing a nothing with it didn't tell me much beyond a very quick glance as its basic presentation on load and then a fight to get it to export.
+
+In particular, just trying to immediately export to HTML5 turns out not to work because you don't have a "export template" installed:
+
+![](images/godot.png)
+
+Easy enough to fix with a 400MB download(!) and then the nothingness is exported successfully as a mess of files. Because I exported into the working directory I was building the project in, I can't actually tell which of the files are part of the exported HTML5 nothing versus the Godot project Nothing. I guess I should untangle them. There I did that, so Godot leaves me with five files in the end, most of it in JS and then a `.wasm` file which is *huge* at 20.5MB for some reason - I assume that kind of the WEBGL player for Godot? Looks like WASM stands for WebAssembly? Which is a way to run things in the browser that are not strictly HTML/CSS/JS stuff? I really don't know. Apparently Unity uses the same basic technology for its Web Player as well. The upshot is that the Godot thing is a big one.
+
+However it also fails in the console of the browser, announcing:
+
+```
+Error: Can't run project: no main scene defined.
+```
+
+and then failing with an actual error:
+
+```
+Uncaught RuntimeError: function signature mismatch
+    at StringName::StringName(char const*) (<anonymous>:wasm-function[532]:0x2a4b3)
+    at OS_JavaScript::initialize(OS::VideoMode const&, int, int) (<anonymous>:wasm-function[37976]:0x95f2a2)
+    at Main::setup2(unsigned long long) (<anonymous>:wasm-function[54399]:0xb56d5e)
+    at main_after_fs_sync (<anonymous>:wasm-function[24161]:0x5e7e07)
+    at Module._main_after_fs_sync (http://127.0.0.1:3000/Nothing.js:8:323869)
+    at ccall (http://127.0.0.1:3000/Nothing.js:8:9246)
+    at http://127.0.0.1:3000/Nothing.js:8:23977
+```
+
+Presumably this is the same kind of error expressed in code, where there's just no scene for it to load? Hard for me to say though, definitely out of my depth with that. It's interesting, though, that unlike Unity, Godot doesn't provide a default scene when you create a new project. So unlike Unity, which gives you a semi-pleasing view of a horizon, Godot gives you nothing and an error. Decisions decisions.
