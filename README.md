@@ -6,7 +6,7 @@
 
 ---
 
-_The Nothings Suite_ ...
+_The Nothings Suite_ is ...
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/twine/) (Twine)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/inky/) (Inky)
