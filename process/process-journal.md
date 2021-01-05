@@ -196,3 +196,15 @@ Uncaught RuntimeError: function signature mismatch
 ```
 
 Presumably this is the same kind of error expressed in code, where there's just no scene for it to load? Hard for me to say though, definitely out of my depth with that. It's interesting, though, that unlike Unity, Godot doesn't provide a default scene when you create a new project. So unlike Unity, which gives you a semi-pleasing view of a horizon, Godot gives you nothing and an error. Decisions decisions.
+
+---
+
+# Print-and-Play (Monday, 4 January 2021, 20:21PM)
+
+## Print-and-Play
+
+I mean, I don't want to sound too clever, but I thought having an analog nothing was pretty fucking good okay? I thought of it in a bath and I felt so very pleased with myself. Created by firing up Microsoft Word, using the Blank template, and exporting to a PDF. One of the smaller games at 12KB.
+
+Quite enjoy the implication of the download link that what you're getting are *instructions* for playing a game called nothing. I suppose at a huge stretch you could say there are no rules and thus total space for imaginative play etc. This is the easiest one to call "not a game" given that it has no game form whatsoever and no obvious game potential baked into the "engine" of a PDF/text document.
+
+I like it. It's probably not the most profound or interesting in terms of theory, but I think it's the funniest and that counts in my books.
