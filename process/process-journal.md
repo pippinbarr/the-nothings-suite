@@ -208,3 +208,29 @@ I mean, I don't want to sound too clever, but I thought having an analog nothing
 Quite enjoy the implication of the download link that what you're getting are *instructions* for playing a game called nothing. I suppose at a huge stretch you could say there are no rules and thus total space for imaginative play etc. This is the easiest one to call "not a game" given that it has no game form whatsoever and no obvious game potential baked into the "engine" of a PDF/text document.
 
 I like it. It's probably not the most profound or interesting in terms of theory, but I think it's the funniest and that counts in my books.
+
+---
+
+# Construct 3, Stencyl (Tuesday, 5 January 2021, 10:03AM)
+
+## [Construct 3](https://www.construct.net/)
+
+Another engine that I'm not personally familiar with. Construct turned out to be pretty seamless in terms of exporting a nothing - the actual app exists online, it exported happily enough. There's not even a commit message of interest around how the process went and I literally cannot remember it to speak of. Guess I just ran Construct 3, started a project, and exported it to HTML5. Kind of embarrassing from a process standpoint.
+
+The most memorable thing about the Construct 3 process is that when I ran the Nothing locally it horrifyingly kind of took over my local host and would run when I was trying to run other stuff (like code I was writing for my upcoming class). It has some very sticky offline mode stuff that was annoying to get rid of, and actually involved me deleting two files from the export, making this not the most authentic nothing because I actively removed its offline mode. But it's just so hostile and gross I don't want them in there in case I accidentally run it again and break everything.
+
+That said, there's something quite interesting/nice about an offline-available nothing, so I'm a bit sorry to miss that special feature.
+
+The experience of the Construct 3 nothing is pretty standard: a loading screen ("Powered by Construct 3") followed by a blank white canvas. My removal of the "service worker" for the offline mode leads to an error in the console that wouldn't otherwise be there. The whole package is 1.2MB (without those two files I removed).
+
+Frankly it's a pretty boring one. I feel like Construct 3 just didn't have a lot of material, not much to say on the nothing front.
+
+## [Stencyl](http://www.stencyl.com/)
+
+I always think of Stencyl and Construct 3 as semi-identical, though I'm sure there are proponents of each that could give me a reasoned argument about how they are super different. That's okay. Stencyl was similarly unremarkable in terms of just exporting successfully and yielding a similarly underwhelming nothingness composed of a loading screen and a blank. The Stencyl loading screen is unbranded which is kind of interesting, nothing about it tell you that Stencyl was the tool used, it's just a little loading bar on dark gray. When it's loaded you get a totally blank page, white, with a white canvas on it and nothing happening.
+
+In terms of the underlying source and files, Stencyl's nothing exports in a pretty organized way with an assets folder, a lib folder, an HTML file, and a JavaScript file. 1.5MB in total.
+
+Yeah I mean, just not a lot to write home about? Kind of feels like this fits or is reflective of the personality of this tool (and Construct 3)? Just sort of effective and a bit boring, a bit unassuming? I don't quite know. I guess in presenting themselves as real multipurpose tools there's this idea that the blank template should be totally blank and not suggestive?
+
+I'm just running Stencyl again to examine the process of exporting a nothing. You "Create a New Game" and then choose a template, and the only template that's there by default is "Blank Game" where you "Start from Scratch", so that's what I did. There's a Platformer example project included with Stencyl, but it's not offered explicitly as a template.
