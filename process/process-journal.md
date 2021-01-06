@@ -237,7 +237,9 @@ I'm just running Stencyl again to examine the process of exporting a nothing. Yo
 
 ---
 
-# [Unity](https://unity.com/)
+# Unity (Wednesday, 6 January 2021, 15:51PM)
+
+## [Unity](https://unity.com/)
 
 Unity is certainly a platform I'm familiar with, having made various games in it and taught it in a game design course. It's not necessarily my favourite engine to work in for accessibility and heaviness reasons, but I've always found it pretty fun to work with and I do have a soft spot for 3D.
 
@@ -250,3 +252,133 @@ As I've worked with it plenty, I know all the latent potential the nothing isn't
 The WEBGL build also includes some little bits of interface stuff, including a loading screen and a fullscreen button and a Unity logo (that doesn't link to their web page oddly). When the load finished you see the classic "Made with Unity" splash and then the static scene after that.
 
 I've debated whether or not I should be providing Windows/Mac/Linux builds of the nothing, whether that would signify anything particularly important or not. Currently I don't believe I care enough to do it - it would make some kind of point about distribution and cross-platform stuff, but it doesn't feel so important. To me the core is what the actual "player experience" of each nothing is alongside any processual stuff to produce it I think.
+
+---
+
+# Unreal Engine 4 (Wednesday, 6 January 2021, 15:51PM)
+
+## [Unreal Engine 4](https://www.unrealengine.com/en-US/)
+
+I don't have Unreal Engine 4 on my computer - I started to install it but it was so huge that I frankly just gave up at the point it told me there wasn't enough room on my drive. Unreal does figure in my imagination around game production because it's always the "other" engine to Unity for me (as Unity is for Unreal people I suppose). It's also the engine a lot of students tend to say they really enjoy using and, at least at one time, that was the idol of graphics chauvinists.
+
+Because I didn't have the engine I contemplated just not including it, but it feels like one of the ones I wouldn't want to miss, so I asked on Twitter for help and received it in the form of [Andrew Baker](https://failrate.itch.io/).
+
+I'll include our entire conversation about the process here for reference!
+
+---
+
+#### Pippin
+Dec 22, 2020, 7:06 PM  
+Hey there! So the genuinely tiny project in question is to make... nothing. I’m interested in you starting unreal and then just exporting whatever is there by default, if that’s possible with that engine. Titling the project Nothing. As I said if we can do a web export so much the better, but downloads okay too, and perhaps more “authentic” anyway?
+
+#### Andrew
+Dec 22, 2020, 9:28 PM  
+Do you mean literally empty?  Like, not even a camera?  Because I could just make a black rectangle png and tell you it's an empty project's web export ;)
+
+![](images/unreal-blank.jpg)
+
+Dec 22, 2020, 9:29 PM  
+How about good old Blank?
+
+#### Pippin
+Dec 23, 2020, 10:18 AM  
+Haha, you can’t get a black png past me!
+
+So Blank is a project template option when you try to start a new project? Sounds perfect. Yeah, the idea isn’t to delete anything, just to release exactly what “nothing” looks like in the engine. Blank makes sense for that.
+
+I love that “blank” appears to have a floor?
+
+#### Andrew
+Dec 23, 2020, 1:37 PM  
+Yes, and the default pawn is a free-flying pawn.
+
+Here is the link:
+`... Sends file NothingHTML5.zip`
+
+It took an embarrassing amount of effort to create a viable "Nothing" project with UE4.
+
+I verified that it was working in Chrome prior to uploading it.
+
+Dec 25, 2020, 7:27 PM  
+Yo, Pippin!  Please let me know what you think.
+
+#### Pippin
+Dec 25, 2020, 9:51 PM  
+Hey Andrew - apologies, caught up in the Christmas spirit etc. I'm curious about the specifics of the effort! What did you end up having to do? Hopefully nothing in terms of actually changing anything in the Unreal editor itself? In terms of the project I'm happy with whatever it spits out when you export a project based on Blank...
+
+Was it just the HMTL5 export stuff that was a pain? It looked a little painful from a quick glance...
+
+Dec 25, 2020, 9:52 PM  
+Just ran it - looks great. So damn weird how involved that is for "nothing"! Kind of great. I guess all the menu stuff is from the HTML5 export. I wonder if I can ask you for a Mac/Windows downloadable? (Also fine to say no!)
+
+#### Andrew
+Dec 25, 2020, 11:15 PM  
+Oh, shit, yeah, I forgot that it's Christmas day.  Time has lost all meaning for me.
+It wasn't too bad, I just had to convince Unreal Engine that I really, really wanted to do the thing I wanted to do.
+
+Yes, the weird UI stuff comes with the HTML5 export.
+
+I'll get a Windows 64 download for you pretty soon.
+
+Dec 25, 2020, 11:17 PM  
+And then, I'll try to get a Mac export after that.
+
+Dec 26, 2020, 7:47 AM  
+Here's Windows:
+`... sends file NothingWindows.zip`
+
+I don't think I can export a Mac build without some iOS developer gubbins:
+
+#### Pippin
+Dec 26, 2020, 12:19 PM  
+Yeah, Apple is just so helpful like that. No problem - if I get to it I can probably install Unreal myself and do this (but I really like the idea of this Nothing being a collaboration!).
+
+In terms of Unreal and the Nothing - if it's not too boring can you go into some detail about the process? The majority of my rationale for this project concerns that specific process - what does it mean to create nothing in different engines, so I'm genuinely quite interested in what that process looks like for Unreal, and I'm curious about this idea that we're collaborating and so there's a step removed for me where I need to hear about it from you.
+
+In particular, just wondering which bits of it felt like they were "extra", which parts of the engine might have "resisted" making that nothing. Mostly the web export component? At least in Unity it's fairly easy to export nothing - you just start a new project and immediately build and export it - so I'm interested in how Unreal might have been different on that front!
+(Also if you're up for it, I'd quite like to include this "correspondence" about the project in the process documentation.)
+
+#### Andrew
+Dec 26, 2020, 2:00 PM  
+Even though the template starts with a valid placeholder level, that doesn't exist as a real file until I saved as a real new file.  Then, to get it into the exported game file, I restarted UE4Editor, and then picked that level as the gameplay default.  The level was auto-picked in the gameplay default upon creation, but it didn't "take" until after the restart.
+
+Yes, this conversation can be published in its entirety.
+
+But, the thing I was most cautious about was doing as little as possible.
+
+I didn't want to make a fake Nothing.
+
+I can send you the project file, so you can wrangle the Apple port.
+
+Dec 26, 2020, 3:49 PM  
+Here is the source project, which you should be able to export to iOS:
+`... sends file Nothing.zip`
+
+#### Pippin
+Dec 26, 2020, 10:15 PM  
+Hugely appreciate the thoroughness of all this Andrew - you get it! I had similar experiences with a couple of other engines, where I couldn't export the nothing until I'd changed it, even if I then reverted it back to the original nothingness. An unnatural occupation.
+
+#### Andrew
+Dec 27, 2020, 9:28 AM  
+Exactly, it doesn't pass the smell test.  As a matter of principle, I want to be able to launch the editor, click "New", and then immediately save the output.
+
+UE4 has a hundred tiny little flaws like this, but it's still my favorite engine to work with, so far.
+
+And, if I'm feeling saucy, I'm diving down to C++ and doing whatever I want.
+
+But, yeah, UE was historically used by small to big studios that knew what they were doing re: this specific style of pipeline.
+
+#### Pippin
+Dec 27, 2020, 1:24 PM  
+Interesting to hear about UE4 love. I haven't tried it out myself, ended up using Unity because that's what someone was around to show me the ropes on. C++ sauciness sounds fun!
+Really appreciate your collaboration on this one Andrew - I'll of course include our co-authorship on it in the game page and my CV and so on!
+
+---
+
+So that's the saga of Andrew being a real champ and going through the process of producing nothing in Unreal Engine 4. You can see he was really careful about it, which I hugely appreciate - have to confess I felt nervous about handing the reins to someone else for fear that they wouldn't quite take it as deadly seriously as I am in terms of not adding anything to the process if it's avoidable, but Andrew totally got it.
+
+The resulting nothing experience is pretty detailed because unlike Unity, Unreal Engine 4's blank project includes an actual platform with a default texture and a moveable camera that you can fly around with! It's interesting, though, that it does still feel within the realms of nothing anyway? Even though there's solid ground, a sky, and movement, it's so clearly placeholder that it ends up being hard to take seriously as a "world"... it's still not really there, especially with the lack of physics? It's more of a nothing than the default sokobanning in PuzzleScript for example.
+
+The export to WEBGL in Unreal Engine 4, which is handled, I believe, via a community project, also adds a bunch of extra interface stuff when you run it. You see a status message about it downloading the data for the game (31MB!) and there are a bunch of buttons along the bottom: Pause, Resume, Toggle Log, Clear IndexedDB, and FullScreen. They feel like they're partly there for a developer to test things and partly for a standard player. I do not know what IndexedDB is. There's also a message right under the play window saying "Running with IndexedDB access disabled" so it's clearly a thing alright, but do I have the energy to find out more?!
+
+As I play with the scene a little more I see that it **does** have physics in that you cannot fly through the platform! You can fly frictionlessly anywhere, but the platform is actually solid. So it feels quite a lot less like nothing and no-world than I'd thought initially.
