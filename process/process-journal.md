@@ -234,3 +234,19 @@ In terms of the underlying source and files, Stencyl's nothing exports in a pret
 Yeah I mean, just not a lot to write home about? Kind of feels like this fits or is reflective of the personality of this tool (and Construct 3)? Just sort of effective and a bit boring, a bit unassuming? I don't quite know. I guess in presenting themselves as real multipurpose tools there's this idea that the blank template should be totally blank and not suggestive?
 
 I'm just running Stencyl again to examine the process of exporting a nothing. You "Create a New Game" and then choose a template, and the only template that's there by default is "Blank Game" where you "Start from Scratch", so that's what I did. There's a Platformer example project included with Stencyl, but it's not offered explicitly as a template.
+
+---
+
+# [Unity](https://unity.com/)
+
+Unity is certainly a platform I'm familiar with, having made various games in it and taught it in a game design course. It's not necessarily my favourite engine to work in for accessibility and heaviness reasons, but I've always found it pretty fun to work with and I do have a soft spot for 3D.
+
+Creating my nothing in Unity was straightforward in that I just created a new project, added the default scene to the build, and then exported. There was a brief snag when I realized the version of Unity I'd launched didn't have the WEBGL export package installed and I had to restart with one that did (life with Unity Hub), but beyond that it was uncomplicated.
+
+The resulting nothing experience has a single camera pointed at the horizon of a skybox. It's genuinely kind of peaceful and, for me, iconic of what nothing means in the context of game engines. That static skybox is quintessential nothing. Oh I guess there's a directional light in the scene too, by default, but it's not really illuminating anything (except I guess controlling the default dynamic skybox presumably). Totally non-interactive, just a "view".
+
+As I've worked with it plenty, I know all the latent potential the nothing isn't using, but I definitely don't know to what extent the build itself excludes all kinds of code and potentials because it can tell they're not being leveraged. The resulting project folder with the WEBGL build in it is 3.5MB, which really isn't very big and would lead me to think that it's a pretty stripped back version of what Unity can do. Does it have the potential to move the camera? Probably? Does it have the potential for wind or reflection probes? No idea. Does that even mean anything in the absence of using those things in the project? Don't know. It's pretty mysterious to me.
+
+The WEBGL build also includes some little bits of interface stuff, including a loading screen and a fullscreen button and a Unity logo (that doesn't link to their web page oddly). When the load finished you see the classic "Made with Unity" splash and then the static scene after that.
+
+I've debated whether or not I should be providing Windows/Mac/Linux builds of the nothing, whether that would signify anything particularly important or not. Currently I don't believe I care enough to do it - it would make some kind of point about distribution and cross-platform stuff, but it doesn't feel so important. To me the core is what the actual "player experience" of each nothing is alongside any processual stuff to produce it I think.
