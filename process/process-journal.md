@@ -382,3 +382,17 @@ The resulting nothing experience is pretty detailed because unlike Unity, Unreal
 The export to WEBGL in Unreal Engine 4, which is handled, I believe, via a community project, also adds a bunch of extra interface stuff when you run it. You see a status message about it downloading the data for the game (31MB!) and there are a bunch of buttons along the bottom: Pause, Resume, Toggle Log, Clear IndexedDB, and FullScreen. They feel like they're partly there for a developer to test things and partly for a standard player. I do not know what IndexedDB is. There's also a message right under the play window saying "Running with IndexedDB access disabled" so it's clearly a thing alright, but do I have the energy to find out more?!
 
 As I play with the scene a little more I see that it **does** have physics in that you cannot fly through the platform! You can fly frictionlessly anywhere, but the platform is actually solid. So it feels quite a lot less like nothing and no-world than I'd thought initially.
+
+---
+
+# Return of the guy who's making this thing (Friday, 9 April 2021, 15:41PM)
+
+Oh yeah, it's three months later. The semester will do that to you. I'm checking back in with this project as I want to wrap it up over next week ideally.
+
+I re-read the journal above and was entertained and more or less still interested in the things I once said. Really in terms of wrapping this the key things are
+
+* Decide how much text should accompany each nothing on the main page (like, do I want a little paragraph with notes about it? a page of notes?)
+* Write the public-facing texts based on the journal entries
+* That's it?
+
+Really there's not a huge amount to be done with this thing. It feels like it has significant intellectual interest for me personally, but probably not much more than that. I think there's the public-facing bit to try to at least make an honest attempt to have it be intelligible as to why I think it's interesting. And then there's probably the Gamasutra piece / Closing Statement in which I can address some of the broader thematic areas that I've found interesting throughout.
