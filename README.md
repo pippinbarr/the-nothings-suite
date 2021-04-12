@@ -24,14 +24,19 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 
 [Flickgame](https://www.flickgame.org/) by [Increpare](https://www.increpare.com/index.html) is an ultra-accessible tool for creating a game made up of hyperlinked hand-drawn images, where links between pages are based on colors. This "nothing" is an empty aubergine purple rectangle that links to nothing, the absence of a drawing and the absence of links. The exported HTML file is only 17KB, the smallest (potentially) interactive nothing in this collection. The source code is also quite readable in the HTML, emphasizing Increpare's commitment to open source with this tool ([repository here](https://github.com/increpare/flickgame)).
 
-#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/) (PuzzleScript)
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/nothing.html) (PuzzleScript)
+
+[PuzzleScript](https://www.puzzlescript.net/) is an open source puzzle game engine by [Increpare](https://www.increpare.com/index.html). This "nothing" is the only "playable game" in this overall suite in the traditional sense: a simple [Sokoban](https://en.wikipedia.org/wiki/Sokoban) level the player can interact with and complete (walkthrough: press the right arrow three times!). This is another nod to accessibility, in this case helping to explain to the user of PuzzleScript through example how its underlying scripting language works at its most fundamental. This is multi-layered nothing - with no additional level data, nor PuzzleScript, nor underlying JavaScript - pointing to the complexity of even "simple" tools.
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/pico8/) (PICO-8)
+
+[PICO-8](https://www.lexaloffle.com/pico-8.php) is a "fantasy console" with an associated development environment for making limited but potential-filled small games. Producing this "nothing" was challenging because PICO-8 is less immediately "friendly" than other game engines, in keeping with its demand that you commit to its technical fantasy world. The nothingness here is due to an empty source code file (`.p8` extension) being used to "create" the resulting game. The game freezes at *"BOOTING CARTRIDGE..."*, but displays no errors either in the fantasy console or the JavaScript console. There's just nothing there for PICO-8 to do.
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/inform7/Nothing.gblorb) (Inform 7, requires an interpreter)
-* Consider:
-  * Mac OS X: [Spatterlight](http://ccxvii.net/spatterlight/)
-  * Windows: [Filfre](http://maher.filfre.net/filfre/index.html)
-  * Linux: [Gargoyle](http://ccxvii.net/gargoyle/)
-  * [Lectrote](https://github.com/erkyrath/lectrote/releases) on any of those platforms
+
+[Inform 7](http://inform7.com/) is a "Design System for Interactive Fiction", prominently featuring a natural-language programming environment. The source code for this "nothing" is first the line `"Nothing" by Pippin Barr` and then the line `Example Location is a room.`, the default generated on creating a new project. Despite the almost total lack of content, the resulting game is expansive thanks to the nature of the Inform 7 engine. In particular, you can perform many actions in its world - such as jumping, talking, and looking at yourself (*"as good-looking as ever"*) - because the engine itself has so many default responses in place. Of course, this world is also incredible claustrophobic - the abyss of its nothingness shows.
+
+**Note:** Because the only way to make an Inform 7 game playable in the browser is to add text to its existing code, I was unable to make it accessible. Instead, you'll have to download the `.gblorb` file and play it with an *interpreter*. Consider [Spatterlight](http://ccxvii.net/spatterlight/) (Mac), [Filfre](http://maher.filfre.net/filfre/index.html) (Windows), or [Gargoyle](http://ccxvii.net/gargoyle/) (Linux).
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/construct3/) (Construct 3)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/stencyl/) (Stencyl)
