@@ -8,6 +8,7 @@
 
 _The Nothings Suite_ is a collection of (extremely) short videogames made with diverse videogame engines such as Unity, Twine, and PICO-8. In each case, a game has been produced with the engine using, as much as possible, no creative input at all. That is, in the ideal scenario I open the game engine, save the project it creates by default as "Nothing" and export it for play. This means you get to see each game engine's idea of what "nothing" (or at least no effort) looks like when you set out to make a game with it.
 
+*The Nothings Suite* currently consists of the following 14 nothings:
 * [Nothing (Twine)](#nothing-twine)
 * [Nothing (Inky)](#nothing-inky)
 * [Nothing (Bitsy)](#nothing-bitsy)
@@ -138,6 +139,8 @@ In the tradition of "print and play" games that provide instructions for how to 
 [Download this nothing](https://pippinbarr.github.io/the-nothings-suite/print-and-play/nothing.pdf)
 
 ---
+
+## Would you like to know more?
 
 #### Read the [Press kit](https://github.com/pippinbarr/the-nothings-suite/blob/master/press/README.md) for press information
 #### Read the [Process documentation](https://github.com/pippinbarr/the-nothings-suite/blob/master/process/README.md) for process journal, to do list, and related work
