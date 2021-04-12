@@ -1,17 +1,29 @@
 # The Nothings Suite
 
-[![Splash](info/images/splash.png)](https://pippinbarr.github.io/the-nothings-suite/)
+*Nothing to see here! But don't move along! You can really see the nothing here! Examine the nothing! Think about the nothing! The nothing is where it all begins!*
 
-*...*
+[![Splash](info/images/splash.png)](https://pippinbarr.github.io/the-nothings-suite/)
 
 ---
 
-_The Nothings Suite_ is ...
+_The Nothings Suite_ is a collection of (extremely) short videogames made with diverse videogame engines such as Unity, Twine, and PICO-8. In each case, a game has been produced with the engine using, as much as possible, no creative input at all. That is, in the ideal scenario I open the game engine, save the project it creates by default as "Nothing" and export it for play. This means you get to see each game engine's idea of what "nothing" (or at least no effort) looks like when you set out to make a game with it.
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/twine/) (Twine)
+
+[Twine](http://twinery.org/) is a flexible hypertext creation tool. The minimal Twine game is a single webpage with default styling containing the instruction: *"Double-click this passage to edit it."* This is the only engine profiled here that references its own user interface by default, pointing the nothing-player to the underlying idea of *making* a Twine game.
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/inky/) (Inky)
+
+[Inky](https://github.com/inkle/inky/releases/tag/0.12.0) is the editor for the [Ink](https://www.inklestudios.com/ink/) scripting language, used to write interactive fiction. This Nothing is interesting for the way it promotes its own tool, proclaiming *"WRITTEN IN INK"* at the top of its webpage. To actually export this this empty Ink story, I had to first write a character, save the file, then delete it and save again. Is it really nothing, or does the ghost of that character remain?
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/bitsy/) (Bitsy)
-#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/flickgame/) (flickgame)
+
+[Bitsy Game Maker](https://ledoux.itch.io/bitsy) (by Adam LeDoux) is an accessible tool for creating "little games or worlds", generally in low resolution 2D visuals. The "nothing" produced here is extensive, containing a title screen, an avatar the player can navigate around a room, and a cat for them to talk to (*"I'm a cat"*). This impressively "playable" nothing is telling the accessibility of the tool: these elements are in place by default so that a user new to the Bitsy Game Maker is able to quickly edit the visuals and texts already in place to begin their own project.
+
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/flickgame/) (Flickgame)
+
+[Flickgame](https://www.flickgame.org/) by [Increpare](https://www.increpare.com/index.html) is an ultra-accessible tool for creating a game made up of hyperlinked hand-drawn images, where links between pages are based on colors. This "nothing" is an empty aubergine purple rectangle that links to nothing, the absence of a drawing and the absence of links. The exported HTML file is only 17KB, the smallest (potentially) interactive nothing in this collection. The source code is also quite readable in the HTML, emphasizing Increpare's commitment to open source with this tool ([repository here](https://github.com/increpare/flickgame)).
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/) (PuzzleScript)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/pico8/) (PICO-8)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/inform7/Nothing.gblorb) (Inform 7, requires an interpreter)
