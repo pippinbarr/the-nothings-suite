@@ -125,11 +125,15 @@ The [Godot Engine](https://godotengine.org/) is a free and open source game engi
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/renpy/) (Ren'Py)
 
+The [Ren'Py Visual Novel Engine](https://www.renpy.org/) is software for creating visual novels. I had originally thought this would be an interesting way for me to engage with visual novel culture, but this particular nothing handily demonstrated to me that the pursuit of "nothing" in a game engine tends to obfuscate rather than clarify the nature of a tool. As such, I know next to nothing about Ren'Py or visual novel production. The nothing produced, however, is intriguing in its sheer complexity. It includes a download sequence, a loading screen with a picture of a woman holding a globe, and a detailed menu system. It also names the game *Nothing 1.0* which I enjoy significantly. Starting the game itself from the menu leads to overlapping errors around missing images that Ren'Py does not provide defaults for, but also two lines of dialog from a character called Eileen: `You've created a new Ren'Py game.` and `Once you add a story, pictures, and music, you can release it to the world!` No, nothing ironic about that.
+
 [Play this nothing](https://pippinbarr.github.io/the-nothings-suite/renpy/)
 
 ---
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/print-and-play/nothing.pdf) (Print-and-Play)
+
+In the tradition of "print and play" games that provide instructions for how to play non-digital games such as LARPs, board games, card games and more. The nothing here is therefore a blank PDF, produced in Microsoft Word as a blank document before exporting. A mere 12KB for so much potential. The implied player experience is somehow one of unlimited freedom because the game context is the real world rather than the constrained world of a videogame engine (perhaps Inform 7 comes the closest to this sense of freedom in a digital context?). With no rules and no aesthetic forms to guide you on how to "play" this nothing, you could do anything? Or is it that you can do nothing?
 
 [Download this nothing](https://pippinbarr.github.io/the-nothings-suite/print-and-play/nothing.pdf)
 
