@@ -8,6 +8,23 @@
 
 _The Nothings Suite_ is a collection of (extremely) short videogames made with diverse videogame engines such as Unity, Twine, and PICO-8. In each case, a game has been produced with the engine using, as much as possible, no creative input at all. That is, in the ideal scenario I open the game engine, save the project it creates by default as "Nothing" and export it for play. This means you get to see each game engine's idea of what "nothing" (or at least no effort) looks like when you set out to make a game with it.
 
+* [Nothing (Twine)](#nothing-twine)
+* [Nothing (Inky)](#nothing-inky)
+* [Nothing (Bitsy)](#nothing-bitsy)
+* [Nothing (Flickgame)](#nothing-flickgame)
+* [Nothing (PuzzleScript)](#nothing-puzzlescript)
+* [Nothing (PICO-8)](#nothing-pico-8)
+* [Nothing (Inform 7)](#nothing-inform-7)
+* [Nothing (Construct 3)](#nothing-construct-3)
+* [Nothing (Stencyl)](#nothing-stencyl)
+* [Nothing (Unity)](#nothing-unity)
+* [Nothing (Godot)](#nothing-godot)
+* [Nothing (Unreal Engine 4)](#nothing-unreal-engine-4-with-andrew-baker)
+* [Nothing (Ren'Py)](#nothing-renpy)
+* [Nothing (Print-and-Play)](#nothing-print-and-play)
+
+---
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/twine/) (Twine)
 
 [Twine](http://twinery.org/) is a flexible hypertext creation tool. The minimal Twine game is a single webpage with default styling containing the instruction: *"Double-click this passage to edit it."* This is the only engine profiled here that references its own user interface by default, pointing the nothing-player to the underlying idea of *making* a Twine game.
@@ -32,7 +49,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 
 [PICO-8](https://www.lexaloffle.com/pico-8.php) is a "fantasy console" with an associated development environment for making limited but potential-filled small games. Producing this "nothing" was challenging because PICO-8 is less immediately "friendly" than other game engines, in keeping with its demand that you commit to its technical fantasy world. The nothingness here is due to an empty source code file (`.p8` extension) being used to "create" the resulting game. The game freezes at *"BOOTING CARTRIDGE..."*, but displays no errors either in the fantasy console or the JavaScript console. There's just nothing there for PICO-8 to do.
 
-#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/inform7/Nothing.gblorb) (Inform 7, downloadable `.gblorb` file, requires an interpreter)
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/inform7/Nothing.gblorb) (Inform 7)
 
 [Inform 7](http://inform7.com/) is a "Design System for Interactive Fiction", prominently featuring a natural-language programming environment. The source code for this "nothing" is first the line `"Nothing" by Pippin Barr` and then the line `Example Location is a room.`, the default generated on creating a new project. Despite the almost total lack of content, the resulting game is expansive thanks to the nature of the Inform 7 engine. In particular, you can perform many actions in its world - such as jumping, talking, and looking at yourself (*"as good-looking as ever"*) - because the engine itself has so many default responses in place. Of course, this world is also incredible claustrophobic - the abyss of its nothingness shows.
 
