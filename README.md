@@ -39,10 +39,25 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 **Note:** Because the only way to make an Inform 7 game playable in the browser is to add text to its existing code, I was unable to make it accessible in that way. Instead, you'll have to download the `.gblorb` file and play it with an *interpreter*. Consider [Spatterlight](http://ccxvii.net/spatterlight/) (Mac), [Filfre](http://maher.filfre.net/filfre/index.html) (Windows), or [Gargoyle](http://ccxvii.net/gargoyle/) (Linux).
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/construct3/) (Construct 3)
+
+[Construct 3](https://www.construct.net/en) is a game creation tool focused on visual scripting and accessibility to non-programmers. This was one of the least eventful nothings to create, and yields a fairly standard player experience: a loading screen (*"Powered by Construct 3"*) followed by a blank white canvas that is totally non-interactive. This feels like it mirrors the rather banal nature of Construct 3 and other more generic forms of game engine that attempt, at some level, to be all things to all people. The only element of note that surprised me that in a default export of a Construct 3 game it includes an "offline mode" to make the game playable without an internet connection - a nice feature, but one which took over my machine's local server setup and made it impossible to develop my own work. A deeply invasive nothing.
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/stencyl/) (Stencyl)
+
+[Stencyl](http://www.stencyl.com/) is a similar tool to Construct 3. It, too, has a visual scripting environment and the ability to export to many platforms. The nothing was similarly easy to create, though the resulting experience is distinct in that it doesn't advertise Stencyl itself by default. The default template used is called "Blank Game" and it sure is blank - I quite like that it fades from black (loading screen) to white, effectively erasing itself from view as it presents its nothingness to the player.
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/unity/) (Unity)
-#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/godot/) (Godot)
+
+[Unity](https://unity.com/) is one of the major "make absolutely anything" game engines along with Unreal Engine and Godot, with a particular focus on 3D game creation. I've made a number of games in Unity previously, so the process was smooth to create an empty project and then export it to WEBGL for viewing on a webpage. The player experience of the nothing is a standard Unity loading screen followed by an empty horizon above a brown/gray nothingness. By implication there's also a camera (that you're seeing through) and a light (that is illuminating the scene). To me, this is the iconic nothing.
+
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/godot/Nothing.html) (Godot)
+
+The [Godot Engine](https://godotengine.org/) is a free and open source game engine in a similar vein to Unity. Not having made a game in the engine before, creating this nothing was a bit of an adventure as I first had to install a specific "export template" (400MB!) to create the WEBGL version and it felt a little less clear than other software. That said, once it was ready to export, it exported fine. The player experience is actually an *error* however: if you check the JavaScript console in the browser you see `Error: Can't run project: no main scene defined.`. That is, Godot does not provide a default "scene" for your new game to take place in, you must create it explicitly. Now that's nothing.
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/unrealengine4/) (Unreal Engine 4, with [Andrew Baker](https://failrate.itch.io/))
+
+[Unreal Engine 4](https://www.unrealengine.com/) is the third of the big 3D engines in this suite. This nothing was unique in that I required a collaborator in Andrew Baker to actually produce the resulting game according to the project brief of creating a game with the engine include no or minimal additions to the engine default. Andrew was extremely thorough and the resulting nothing is representative of Unreal's "Blank" project. As with both Bitsy and PuzzleScript, the blankness is actually rather developed as the player can fly around a in a first-person view and bump into a single platform floating there. It is therefore complete with lighting, physics, player input, and so on. Due to the web export, it also comes with an unsightly additional default interface around it for toggling logs, pausing the game, and more. A whole lot of nothing.
+
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/renpy/) (Ren'Py)
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/print-and-play/nothing.pdf) (Print-and-Play)
 
