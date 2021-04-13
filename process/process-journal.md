@@ -396,3 +396,27 @@ I re-read the journal above and was entertained and more or less still intereste
 * That's it?
 
 Really there's not a huge amount to be done with this thing. It feels like it has significant intellectual interest for me personally, but probably not much more than that. I think there's the public-facing bit to try to at least make an honest attempt to have it be intelligible as to why I think it's interesting. And then there's probably the Gamasutra piece / Closing Statement in which I can address some of the broader thematic areas that I've found interesting throughout.
+
+---
+
+# Planning a closing statement (13-04-2021 10:57)
+
+I've now written capsules for every nothing which allowed me to recapture some of the detail and depth of thought (such as it is) for this project. It remains to try to write some kind of overview that reaches for a more thematic analysis of what happened here and thus to try to clarify its value as a research-creation project.
+
+I think that's the best approach - identify themes of interest and then use the different games as concrete examples. This isn't one of those cases where I have detailed "design decisions" because I didn't particularly have to make any of those, it's rather examples of what the engines themselves did in response to the project. Maybe a little bit of "player experience" in there too.
+
+So what are these themes then, Pippin?
+
+* *Nothing is nothing* is the overarching theme of course - the premise of the project is that you can learn about the engines and they're understanding of what a game is and how you make one based solely on doing nothing with them beyond creating and exporting the minimal project they can manage.
+* *Code forensics* is part of this for me, it's not something I think about, but this project certainly made me notice just *size* (thrown into relief by the idea of nothing) and sometimes the source itself (I was curious about what it takes to create nothing)
+* *So much potential*. The majority of the engines accompany the lack of actual content with a large amount of code the majority of which won't execute. The WebGL build of Unity was interesting for being so small. But many of them contain messes of JS for example that has no data to chew. Computation uncomputed.
+* *A view to a nothing*. The visual aesthetics of the different nothings is of course revealing - you do see something. The Unity view is of course my favourite.
+* *Templates* were surprisingly rare. Bitsy, PuzzleScript and to a lesser extent Unreal each had actual interactive experiences as a part of their default project. When they are present they speak to a kind of cultural nature of the software (Bitsy is charming, PuzzleScript is utilitarian, Unreal is stupid)
+* *Agency* is related to the templates, for sure, but extends beyond that. Some of the game allow the player to actually interact to some extent - clearly the previous three, but also Inform 7 is an interesting case. The blank page/PDF is a very specific example of this. In a sense agency and the templates can be folded into each other as they're kind of about the same thing? Ren'Py as a kind of UI agency.
+* *Brand Management*. Some of the engines advertise themselves by default (Inky, PuzzleScript, Flickgame, Construct 3, Unity, Unreal). Presumably in all cases we can read this as a kindly invitation to the player to step through the mirror and become the creator. It feels more predatory or vain in the cases of the larger companies, however. It's also quite a meta idea that the game world would include a reference to its inner workings.
+* *White Box*. Twine is the one engine that explicitly references its own nature as a tool for use. This could be folded into Brand Management in a way, if I reframe it more as the visibility of the tool. "Your tool's showing." It's not really a white box obviously, more just visibility of the structure of the tool itself in Twine rather than just the name of the software and a possible link.
+* *Nothing's easy*. Something about some of the technical details around actually producing nothing. Deleting the "e" in Inky. Downloading the export template in Godot? .gblorb in Inform 7 a barrier to play.
+
+Okay well there's stuff there obviously. There's stuff there. I'm feeling a slight loss of steam so I might head over to the press kit and make that part of things quickly now while I have the energy. I think it's probably a matter of folding this down to about 5 themes or so, illustrated with specific examples, and which all help to tell the story of "nothing is nothing" which is the presumed title of the piece?
+
+OKAY SOUNDS GOOD PIPS.

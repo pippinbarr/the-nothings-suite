@@ -104,7 +104,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 
 [Unity](https://unity.com/) is one of the major "make absolutely anything" game engines along with Unreal Engine and Godot, with a particular focus on 3D game creation. I've made a number of games in Unity previously, so the process was smooth to create an empty project and then export it to WEBGL for viewing on a webpage. The player experience of the nothing is a standard Unity loading screen followed by an empty horizon above a brown/gray nothingness. By implication there's also a camera (that you're seeing through) and a light (that is illuminating the scene). To me, this is the iconic nothing.
 
-[Play this nothing](https://pippinbarr.github.io/the-nothings-suite/unity/)
+[Play this nothing](https://pippinbarr.github.io/the-nothings-suite/unity/) (currently broken in some versions of Chrome)
 
 ---
 
