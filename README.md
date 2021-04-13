@@ -1,4 +1,4 @@
-# The Nothings Suite
+# *The Nothings Suite*
 
 *Nothing to see here! But don't move along! You can really see the nothing here! Examine the nothing! Think about the nothing! The nothing is where it all begins!*
 
