@@ -142,8 +142,8 @@ In the tradition of "print and play" games that provide instructions for how to 
 
 ## Would you like to know more?
 
-#### Read the [Press kit](https://github.com/pippinbarr/the-nothings-suite/blob/master/press/README.md) for press information
-#### Read the [Process documentation](https://github.com/pippinbarr/the-nothings-suite/blob/master/process/README.md) for process journal, to do list, and related work
+#### Read the [Press kit](https://pippinbarr.github.io/the-nothings-suite/press) for press information
+#### Read the [Process documentation](https://pippinbarr.github.io/the-nothings-suite/process) for process journal, to do list, and related work
 #### Read the [Commit History](https://github.com/pippinbarr/the-nothings-suite/commits/master) for step-by-step information about how the project was built
 #### Look at the [Code Repository](https://github.com/pippinbarr/the-nothings-suite) for source code etc.
 
