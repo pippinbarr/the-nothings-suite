@@ -46,7 +46,7 @@ Other instances offer at least a little hint of a game to hold onto. The [Inky N
 
 The majority of the nothings produced aren't interactive - you can't fly through Unity's peace skies and you can't click through new new pages in the Flickgame version. There are, however, a set of nothings that do allow for user interaction, generally thanks to providing some degree of template project for a user of the software to engage with. The [Bitsy Nothing](https://pippinbarr.github.io/the-nothings-suite/bitsy/) consists of the default room, avatar, and cat. You can move around and even talk to the cat by bumping into it.
 
-![](images/bitsy-nothing.png)  
+![](images/nothing-bitsy.png)  
 *Nothing (Bitsy)*
 
 In both this case, and in the case of the [PuzzleScript Nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/nothing.html), which provides a simple [Sokoban](https://en.wikipedia.org/wiki/Sokoban) level, the cosy little pre-made environment would seem to emphasize a desire to welcome the user of the tool in, to show them the ropes in an accessible way, and this is in keeping with the open, community-focused nature of those tools. The Sokoban level in the PuzzleScript Nothing can be won, returning you to the menu and perhaps making this most officially game-like of the nothings. The [Unreal Engine 4 Nothing](https://pippinbarr.github.io/the-nothings-suite/unrealengine4/) is also interactive, allowing the player to fly around a cloudy sky and bump into a floating platform, again presumably in order to show a first-time user of the software how to include some of the most basic components of the engine:
@@ -67,7 +67,7 @@ Following on from the interactive nature of the Ren'Py Nothing, we can also see 
 
 Finally, my favourite self-reference of all is the [Twine Nothing](https://pippinbarr.github.io/the-nothings-suite/twine/)'s simple message of "Double-click this passage to edit it." This isn't an invitation for the player of the Twine Nothing to interact with it, but rather a vestige of the creation process: Twine always has a single "passage" (page) present in its editor when you start a new project, and it has this message in it to let you know you can edit the text and change it to whatever you'd like. It's the opening incantation of the magic of making your own game, and I love that it makes it all the way through to the released game in this case.
 
-![](nothing-twine.png)
+![](images/nothing-twine.png)
 
 ## Conclusion
 
