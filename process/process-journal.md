@@ -420,3 +420,20 @@ So what are these themes then, Pippin?
 Okay well there's stuff there obviously. There's stuff there. I'm feeling a slight loss of steam so I might head over to the press kit and make that part of things quickly now while I have the energy. I think it's probably a matter of folding this down to about 5 themes or so, illustrated with specific examples, and which all help to tell the story of "nothing is nothing" which is the presumed title of the piece?
 
 OKAY SOUNDS GOOD PIPS.
+
+---
+
+# Planning the closing statement (14-04-2021 10:27)
+
+## Nothing is nothing
+
+* Introduce the project and method
+* Point out the most obvious outcome that *nothing is nothing* and introduce thematic areas
+* *Process* - illustrative issues like the "e" in Inky, .gblorb in Inform 7? (This feels a tiny bit weak to me, not enough juice to mention?)
+* *Code* - size, potential computation, layers (PuzzleScript on JavaScript)
+* *View* - Unity's horizon, blank squares, Ren'Py UI??
+* *Action* - nothings that can be played (Bitsy, PuzzleScript, Unreal Engine, Inform 7, Ren'Py)
+* *Meta* - engines that self-reference as advertising/invitation or Twine special case
+* Conclude with positive outcome of looking at nothing, reiterate nothing is nothing
+
+Screenshots throughout, links to the actual playable games.
