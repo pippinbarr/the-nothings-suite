@@ -7,7 +7,7 @@
 ## The basics
 
 * Developer: [Pippin Barr](http://www.pippinbarr.com/)
-* Release: 15 April 2021
+* Release: 21 April 2021
 * Platform: Browser (desktop and mobile)
 * Code repository: https://github.com/pippinbarr/the-nothings-suite
 * Price: $0.00

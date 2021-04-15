@@ -24,6 +24,8 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 * [Nothing (Ren'Py)](#nothing-renpy)
 * [Nothing (Print-and-Play)](#nothing-print-and-play)
 
+You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
+
 ---
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/twine/) (Twine)
@@ -144,7 +146,7 @@ In the tradition of "print and play" games that provide instructions for how to 
 
 #### Read the [Press kit](https://pippinbarr.github.io/the-nothings-suite/press) for press information
 #### Read the [Process documentation](https://pippinbarr.github.io/the-nothings-suite/process) for process journal, to do list, and related work
-#### Read the [Commit History](https://github.com/pippinbarr/the-nothings-suite/commits/master) for step-by-step information about how the project was built
+#### Read the [Commit History](https://github.com/pippinbarr/the-nothings-suite/commits/main) for step-by-step information about how the project was built
 #### Look at the [Code Repository](https://github.com/pippinbarr/the-nothings-suite) for source code etc.
 
 ---
