@@ -23,6 +23,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 * [Nothing (Unreal Engine 4)](#nothing-unreal-engine-4-with-andrew-baker)
 * [Nothing (Ren'Py)](#nothing-renpy)
 * [Nothing (Print-and-Play)](#nothing-print-and-play)
+* [Nothing (p5.js Web Editor)](#nothing-p5js-web-editor)
 
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
@@ -139,6 +140,14 @@ The [Ren'Py Visual Novel Engine](https://www.renpy.org/) is software for creatin
 In the tradition of "print and play" games that provide instructions for how to play non-digital games such as LARPs, board games, card games and more. The nothing here is therefore a blank PDF, produced in Microsoft Word as a blank document before exporting. A mere 12KB for so much potential. The implied player experience is somehow one of unlimited freedom because the game context is the real world rather than the constrained world of a videogame engine (perhaps Inform 7 comes the closest to this sense of freedom in a digital context?). With no rules and no aesthetic forms to guide you on how to "play" this nothing, you could do anything? Or is it that you can do nothing?
 
 [Download this nothing](https://pippinbarr.github.io/the-nothings-suite/print-and-play/nothing.pdf)
+
+---
+
+#### [Nothing](https://editor.p5js.org/pippinbarr/sketches/c8d0M-cxX) (p5.js Web Editor)
+
+[p5.js](https://p5js.org/) is a truly excellent JavaScript library aimed at simplifying visual programming for artists and beginners - I teach it in my introductory programming class. This nothing is particularly interesting in that it's created with p5.js's Web Editor, meaning that when you visit it you explicitly see the default JavaScript code itself. It comes with a play button, so you can also see the game running alongside its code, which is a very intriguing and very explicit invitation for anyone to "just start coding" right away. Imagine the possibilities available if you built upon this nothing!
+
+[Play this nothing](https://editor.p5js.org/pippinbarr/sketches/c8d0M-cxX)
 
 ---
 

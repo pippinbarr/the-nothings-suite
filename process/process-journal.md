@@ -437,3 +437,11 @@ OKAY SOUNDS GOOD PIPS.
 * Conclude with positive outcome of looking at nothing, reiterate nothing is nothing
 
 Screenshots throughout, links to the actual playable games.
+
+---
+
+# p5.js Web Editor (20-04-2021)
+
+I've start adding a few new nothings to the suite on recommendations from people on Twitter who have viewed the project. Yann Seznec suggested using the p5.js Web Editor which is quite genius! I'm very attached to p5.js in general because of my teaching of course, and it's also really really interesting to present the project as its *code* foremost, with the additional ability to run the program. The code it always visible and the user could *edit* that code to explicitly build upon the nothing. This keeps the nothing much more explicitly alive than the others I think, which I really like - it's in some ways the ultimate extension of those nothings that link to their editor's homepage etc.
+
+I'm also not sure how to write about the additions because it's weird to add a journal entry like this as well as the documentation in the main README pointing to the game... they're kind of the same thing, there's no separation of thought process or waiting time to simmer ideas. Nonetheless, here we are.
