@@ -24,6 +24,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 * [Nothing (Ren'Py)](#nothing-renpy)
 * [Nothing (Print-and-Play)](#nothing-print-and-play)
 * [Nothing (p5.js Web Editor)](#nothing-p5js-web-editor)
+* [Nothing (ZZT)](#nothing-zzt)
 
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
@@ -148,6 +149,17 @@ In the tradition of "print and play" games that provide instructions for how to 
 [p5.js](https://p5js.org/) is a truly excellent JavaScript library aimed at simplifying visual programming for artists and beginners - I teach it in my introductory programming class. This nothing is particularly interesting in that it's created with p5.js's Web Editor, meaning that when you visit it you explicitly see the default JavaScript code itself. It comes with a play button, so you can also see the game running alongside its code, which is a very intriguing and very explicit invitation for anyone to "just start coding" right away. Imagine the possibilities available if you built upon this nothing!
 
 [Play this nothing](https://editor.p5js.org/pippinbarr/sketches/c8d0M-cxX)
+
+---
+
+#### [Nothing](https://pippinbarr.github.io/the-nothings-suite/zzt/) (ZZT)
+
+[ZZT](http://zzt.org/) is a game engine from back in 1991 that runs on DOS and produces extremely charming ASCII (and ANSI?) worlds (*International Jetpack Conference* is a favourite, though hard to source now). ZZT is a particularly interesting engine because it is both editor and player at the same time: when you load this nothing, you can equally hit P to play the Nothing I made, or you can hit E to open the editor and make something of your own. This is a very powerful version of this idea repeated throughout this series of games that a game might communicate or make available the engine of creation. The nothing itself is a nice one, with a smiling avatar in a big blank room and the implication of torches and ammo telling us something about the way ZZT perceives its worlds. The game is playable online thanks to [Zeta](https://zeta.asie.pl/). You could also read Anna Anthropy's truly excellent book on ZZT called... what was it? Oh yes, [ZZT](https://bossfightbooks.com/products/zzt-by-anna-anthropy).
+
+[Play this nothing](https://pippinbarr.github.io/the-nothings-suite/zzt/)
+
+[Download the .ZZT source file](https://pippinbarr.github.io/the-nothings-suite/zzt/NOTHING.ZZT)
+
 
 ---
 

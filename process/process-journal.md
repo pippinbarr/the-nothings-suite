@@ -445,3 +445,24 @@ Screenshots throughout, links to the actual playable games.
 I've start adding a few new nothings to the suite on recommendations from people on Twitter who have viewed the project. Yann Seznec suggested using the p5.js Web Editor which is quite genius! I'm very attached to p5.js in general because of my teaching of course, and it's also really really interesting to present the project as its *code* foremost, with the additional ability to run the program. The code it always visible and the user could *edit* that code to explicitly build upon the nothing. This keeps the nothing much more explicitly alive than the others I think, which I really like - it's in some ways the ultimate extension of those nothings that link to their editor's homepage etc.
 
 I'm also not sure how to write about the additions because it's weird to add a journal entry like this as well as the documentation in the main README pointing to the game... they're kind of the same thing, there's no separation of thought process or waiting time to simmer ideas. Nonetheless, here we are.
+
+---
+
+# ZZT (20-04-2021 15:03)
+
+I started writing the main text about this and then kind of floundered so I'm going to write my thoughts here in a less-giving-a-shit way. So, ZZT is a DOS program from 1991 that lets you create genuinely quite remarkable worlds out of ASCII (and ANSI? It looks like ANSI as I remember it but I don't know if that's technically correct or what being technically correct would mean?). Making nothing in ZZT proved to be somewhat harder than I wanted because
+
+* BOO! I started with Boxer but the ARM version for the M1 AirBook I'm using did run
+* YAY! Then I used the old Boxer and that did work and let me run ZZT obtained from the [DOS Games Archive](https://www.dosgamesarchive.com/download/zzt/)
+* BOO! Then I spent an embarrassing amount of time unable to make anything work in ZZT because I didn't understand there was a modal dialog at the start I could only get rid of with ESC or Enter (I even looked up "keystrokes not working in ZZT" and stuff, oh god)
+* YAY! Then I got really excited because making nothing in ZZT is quite appealing and leads to an avatar face in a big empty room with walls
+* BOO! But then I could find the fucking .ZZT file that represents the game, it kept disappearing every time like it had no permanence
+* YAY! Then I figured that if I ran ZZT directly in DOS BOX I had clearer access to the file system because I could just mount the ZZT folder in DOS BOX (whereas I had no clue where Boxer was hiding stuff)
+* BOO! But then a .zzt file isn't very fun for anyone and I was thinking I'd probably have to include instructions for how to download ZZT and run it in DOS BOX and blah blah blah which is a downer for everyone?
+* YAY! But then I found [Zeta](https://zeta.asie.pl/) which can run ZZT in the browser and it JUST WORKS (after a bit of fiddling)
+
+So the upshot is that I do have a distributable NOTHING.ZZT that can be played in the browser and features a happy face in a big room that can move around and doesn't have any ammo or torches (these are things mentioned in the standard ZZT UI).
+
+The NOTHING.ZZT file representing that game is 1KB in size. It's really little if you look at it in a text editor. I can't paste it here accurately as it looks like a bunch of special characters massively fuck it up for display.
+
+The other really interesting thing about ZZT as a platform for Nothing is that by default when you *play* a ZZT game you're also running the software that can *create* a ZZT game... the editor and player are the same thing and not hidden from one another at all. It's a bit like the p5.js Web Editor in that way, but more user friendly and aimed at non-coders. So again you've got this idea of a bridge from game player to game maker that I think is really neat and especially, especially strong in this instance.
