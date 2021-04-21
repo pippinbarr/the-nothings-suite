@@ -466,3 +466,25 @@ So the upshot is that I do have a distributable NOTHING.ZZT that can be played i
 The NOTHING.ZZT file representing that game is 1KB in size. It's really little if you look at it in a text editor. I can't paste it here accurately as it looks like a bunch of special characters massively fuck it up for display.
 
 The other really interesting thing about ZZT as a platform for Nothing is that by default when you *play* a ZZT game you're also running the software that can *create* a ZZT game... the editor and player are the same thing and not hidden from one another at all. It's a bit like the p5.js Web Editor in that way, but more user friendly and aimed at non-coders. So again you've got this idea of a bridge from game player to game maker that I think is really neat and especially, especially strong in this instance.
+
+---
+
+# batari Basic (21-04-2021 13:35)
+
+[batari Basic](http://bataribasic.com/) is a programming language for the Atari 2600 that compiles to binaries that can be read as cartridges in emulators for the system. I assume one could also produce an actual physical cartridge from its output too.
+
+The process for this one was to create a completely empty batari Basic file called [`Nothing.bas`](https://pippinbarr.github.io/the-nothings-suite/batari-basic/nothing.bas) (using `cat` in the terminal seemed like the fastest way). That's already of interest to me since it's not a system that has some specific workflow for creating a new project - rather you need to just "write a dang program" to make it work. In that situation, it seemed more appropriately nothing and low-effort to create an empty file and then compile it.
+
+The batari Basic compiler didn't object to compiling an empty file to a binary, which is nice. The binary produced is no longer of size 0, it's a file called [`Nothing.bin`](https://pippinbarr.github.io/the-nothings-suite/batari-basic/Nothing.bin) that is around 4KB according to my computer. The fact it has some size lends it a certain kind of legitimacy as presumably there's boilerplate stuff in there that renders the file recognizable as Atari 2600 data specifically rather than just, again, an empty file.
+
+In getting the file to play nice with Atari emulators like [Javatari](https://javatari.org/) (web-based) and [Stella](https://stella-emu.github.io/) (for desktop), I ended up renaming the file to [`Nothing.a26`](https://pippinbarr.github.io/the-nothings-suite/batari-basic/Nothing.a26) as that extension helps emulators officially recognize it as being for the Atari 2600. Javatari wouldn't even let me choose the `.bin` version as a cartridge to load.
+
+In Stella, loading the cartridge yields what you might expect: a blank black screen. This is true for Javatari too except that it briefly displays an error:
+
+![](images/nothing-batari-basic.png)
+
+This makes me question whether the cartridge file is actual being loaded at all or actually just breaking the emulator. It's not clear to me what should happen, and I don't quite have the patience to learn enough about the systems and emulators to get to grips with what's "truly" going on there. It doesn't generate an error in Stella, so I'm going to assume the cartridge "runs" in some sense and produces the nothing we see - certainly no visible error message on the part of the emulated Atari 2600 at least (if it ever has them), nor any kind of graphics error you might imagine seeing as a representation of that error.
+
+The Javatari emulator is really fun because it bothers to represent the surrounding idea of a game system, and I particularly love the touch of the little cartridge labelled "Nothing" that's visible at the bottom there.
+
+This is probably a bit of a personally significant nothing too, because I've based various ideas off the aesthetics and system limitations of the Atari in the past (Jostle Bastard, Jostle Parent, Lo-Fi Dick Fight, Combat at the Movies). To actually "work" with an underlying compiler, even if it's to compile literally blank code, is quite pleasing to my mind.

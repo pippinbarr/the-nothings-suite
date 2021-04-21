@@ -25,6 +25,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 * [Nothing (Print-and-Play)](#nothing-print-and-play)
 * [Nothing (p5.js Web Editor)](#nothing-p5js-web-editor)
 * [Nothing (ZZT)](#nothing-zzt)
+* [Nothing (batari Basic)](#nothing-batari-basic)
 
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
@@ -160,6 +161,17 @@ In the tradition of "print and play" games that provide instructions for how to 
 
 [Download the .ZZT source file](https://pippinbarr.github.io/the-nothings-suite/zzt/NOTHING.ZZT)
 
+---
+
+#### Nothing (batari Basic)
+
+[batari Basic](http://bataribasic.com/) is a programming language for the Atari 2600 that compiles to files that can be read as cartridges in emulators for the system. The Atari 2600 has a lot of personal significance to me because I've used its visual aesthetics and system limitations in various other projects. I also especially like this nothing because it's generated from a source file, [`nothing.bas`](https://pippinbarr.github.io/the-nothings-suite/batari-basic/nothing.bas), that has literally no size - the ultimate in nothingness, perhaps? On the other hand, I assume one could also produce an actual physical cartridge from the compiled output too, and that would be quite something.
+
+**Note:** To play this nothing you'll need an Atari 2600 emulator to load the file into. You can go for [Javatari](https://javatari.org/) if you want a version on the web, or [Stella](https://stella-emu.github.io/) if you want something on your PC.
+
+[Download this nothing](https://pippinbarr.github.io/the-nothings-suite/batari-basic/Nothing.a26)
+
+[Download the .bas source file](https://pippinbarr.github.io/the-nothings-suite/batari-basic/nothing.bas)
 
 ---
 
