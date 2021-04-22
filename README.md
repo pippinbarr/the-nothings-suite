@@ -26,6 +26,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 * [Nothing (p5.js Web Editor)](#nothing-p5js-web-editor)
 * [Nothing (ZZT)](#nothing-zzt)
 * [Nothing (batari Basic)](#nothing-batari-basic)
+* [Nothing (GB Studio)](#nothing-gb-studio)
 
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
@@ -172,6 +173,16 @@ In the tradition of "print and play" games that provide instructions for how to 
 [Download this nothing](https://pippinbarr.github.io/the-nothings-suite/batari-basic/Nothing.a26)
 
 [Download the .bas source file](https://pippinbarr.github.io/the-nothings-suite/batari-basic/nothing.bas)
+
+---
+
+#### Nothing (GB Studio)
+
+[GB Studio](https://www.gbstudio.dev/) is a "retro game creator" for Game Boy games. It can export both for the web and as a ROM file readable by a Game Boy (or emulator), so it's all very authentic. This nothing provoked a [surprising amount of soul searching](process/process-journal.md#gb-studio-22-04-2021-10-32) for me in terms of my rules of nothingness and even led me to codify more explicit rules for the suite. That's because the **default** (least effort) template project to create is a "Sample Project" that contains a full game's worth of material, but there is also a "Blank Project" template available in the same menu which creates a rather more minimalistic (and nothing-like) project. After struggling with the correct path, this nothing uses the "Blank Project" as being more in the spirit of The Nothings Suite.
+
+[Play this nothing](https://pippinbarr.github.io/the-nothings-suite/gbstudio/build/web/)
+
+[Download this nothing as a GameBoy ROM](https://pippinbarr.github.io/the-nothings-suite/gbstudio/build/rom/game.gb)
 
 ---
 

@@ -49,6 +49,7 @@ The resulting games are as diverse as the engines that made them, and offer an o
 * [p5.js Web Editor](https://editor.p5js.org/)
 * [ZZT](http://zzt.org/) (playable online thanks to [Zeta](https://zeta.asie.pl/))
 * [batari Basic](http://bataribasic.com/)
+* [GB Studio](https://www.gbstudio.dev/)
 
 If you have a tool you'd like to see added to the Suite, let me know and I'll do my best.
 

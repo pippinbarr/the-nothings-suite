@@ -488,3 +488,59 @@ This makes me question whether the cartridge file is actual being loaded at all 
 The Javatari emulator is really fun because it bothers to represent the surrounding idea of a game system, and I particularly love the touch of the little cartridge labelled "Nothing" that's visible at the bottom there.
 
 This is probably a bit of a personally significant nothing too, because I've based various ideas off the aesthetics and system limitations of the Atari in the past (Jostle Bastard, Jostle Parent, Lo-Fi Dick Fight, Combat at the Movies). To actually "work" with an underlying compiler, even if it's to compile literally blank code, is quite pleasing to my mind.
+
+---
+
+# GB Studio (22-04-2021 10:32)
+
+[GB Studio](https://www.gbstudio.dev/) is a tool for creating Game Boy games, including exporting to the Game Boy ROM format, so presumably legitimate in terms of compiling down to something that an actual Game Boy understands code-wise. Also exports to web, which is nice!
+
+It's very "easy to use" in the nothings sense because you just fire it up and it defaults to creating a new project and off you go with your exporting.
+
+It does create a familiar tension in the overall methodology of this suite, though, which is that when creating a new project the **default** template to use is the "Sample Project", but within the dropdown menu for templates is also the "Blank Project":
+
+![](images/gbstudio-new-project-menu.png)
+
+This immediately generates a tension between the two most obvious understandings of The Nothings Suite, that is is either a) games with the least possible content, games that are literally nothing or at least an engine's interpretation of nothing; or b) games made with the least possible effort, games for which I "did nothing" and represent that path of least resistance through the engine. **a** would indicate the "Blank Project" is the right way to go. **b** would indicate the "Sample Project" is the way to go as it's the default.
+
+Further complicating this is that the Sample Project is, understandably, quite fully featured and thus shows a ton about the engine that would thus make it quite a nice nothing for a player to see and think about...
+
+![](images/gbstudio-sample-project.png)
+
+But, the Blank Project is actually quite a beautiful little distillation of nothingness too, featuring a moveable arrow on a screen plus a little color palette...
+
+![](images/gbstudio-blank-project.png)
+
+As such, **either** of these two ideas seem like they yield a worthwhile nothing to show the world, which pushes me back to the core existential question about the nature of the suite again, damnit.
+
+Have I already solved this problem and I should not worry? At the top of the release of the games it says
+
+> The Nothings Suite is a collection of (extremely) short videogames made with diverse videogame engines such as Unity, Twine, and PICO-8. In each case, a game has been produced with the engine using, as much as possible, no creative input at all. That is, in the ideal scenario I open the game engine, save the project it creates by default as “Nothing” and export it for play. This means you get to see each game engine’s idea of what “nothing” (or at least no effort) looks like when you set out to make a game with it.
+
+Which mostly suggests I'm aligning to the idea of providing the least input. Except that in referring to a game engine's "idea of nothing" I'm talking more about the potential for including blank projects explicitly. Le sigh. Is it the case that I should be using a blank template if it's available, even if that requires me to explicitly find that template in a menu (SO MUCH WORK RIGHT?!?!?!?!).
+
+Now I'm convincing myself that the Blank Project is the way to go. But would I be able to say the same if the blank project was truly blank? Wait it IS truly blank! Right, that's the other thing, because the process with the Blank Project is like this:
+
+1. Select Blank Project template
+2. Try to export
+3. Read error message saying you can't export a project without a scene
+4. Add a scene
+5. Try to export
+6. Ta da
+
+That is, in choosing the Blank Project you end up being required to do more work (and less nothing) in terms of explicitly adding a scene because otherwise it literally won't release. I'm comparing that a bit to the Godot Engine's nothing, which similarly begins with no scene but **doesn't** require a scene to compile and release, and therefore ends up throwing an error in the console. **Should** I have added an empty scene in Godot? No, right, because the idea is what the most nothing the engine will "tolerate" to some sense? But no, because in that context for GB Studio I would go ahead and delete everything in the Blank Project scene before proceeding right? But I don't want to do that because that just leads to the "everything is a blank rectangle" path?
+
+I mean, there's probably a core truth to this overall project that it's very subjective at a certain point what I'm counting as nothing, but I want it to at least *feel* a bit rigorous? That I should have rules for how to proceed? So is it
+
+1. Open the engine
+2. (If needed) create a new project in the blankest way available
+3. (If needed) add minimal elements until the project is exportable
+4. Export the project
+
+Step 2 tells me to use the Blank Project in GB Studio rather than the Sample Project. Step 3 tells me to add a blank scene to the Blank Project prior to exporting.
+
+Do these encoded rules change anything about any previous engine? Let me take a scan through the list. I mean, Inky was interesting because it needed step 3 (the insertion and deletion of a character to be allowed to export). PICO-8 used step 3 in requiring an image to represent the program. Ren'Py uses step 3 in order to choose resolution and palette...
+
+So no, these rules seem to represent a reasonable understanding. Really I'm mostly explicitly adding rule 2 to the process which is telling me to select Blank Project and not Sample Project in GB Studio specifically. This may also refer back to Unreal Engine 4, in which Andrew also used a Blank Project, though it looks like it highlights as the default option according to his screenshot.
+
+So there you go, we're doing okay here methodologically and I think we now know we need the GB Studio nothing to be the Blank Project and not the Sample Project. Thank god for cold hard logic and not at all any emotional decision making ever in my games.
