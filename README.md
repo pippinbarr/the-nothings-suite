@@ -8,7 +8,7 @@
 
 _The Nothings Suite_ is a collection of (extremely) short videogames made with diverse videogame engines such as Unity, Twine, and PICO-8. In each case, a game has been produced with the engine using, as much as possible, no creative input at all. That is, in the ideal scenario I open the game engine, save the project it creates by default as "Nothing" and export it for play. This means you get to see each game engine's idea of what "nothing" (or at least no effort) looks like when you set out to make a game with it.
 
-*The Nothings Suite* currently consists of the following 14 nothings:
+*The Nothings Suite* currently consists of the following nothings:
 * [Nothing (Twine)](#nothing-twine)
 * [Nothing (Inky)](#nothing-inky)
 * [Nothing (Bitsy)](#nothing-bitsy)
