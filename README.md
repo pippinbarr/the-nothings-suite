@@ -182,7 +182,7 @@ In the tradition of "print and play" games that provide instructions for how to 
 
 [Play this nothing](https://pippinbarr.github.io/the-nothings-suite/gbstudio/build/web/)
 
-[Download this nothing as a GameBoy ROM](https://pippinbarr.github.io/the-nothings-suite/gbstudio/build/rom/game.gb)
+[Download this nothing as a Game Boy ROM](https://pippinbarr.github.io/the-nothings-suite/gbstudio/build/rom/game.gb)
 
 ---
 
