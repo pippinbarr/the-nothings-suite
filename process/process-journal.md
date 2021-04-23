@@ -544,3 +544,15 @@ Do these encoded rules change anything about any previous engine? Let me take a 
 So no, these rules seem to represent a reasonable understanding. Really I'm mostly explicitly adding rule 2 to the process which is telling me to select Blank Project and not Sample Project in GB Studio specifically. This may also refer back to Unreal Engine 4, in which Andrew also used a Blank Project, though it looks like it highlights as the default option according to his screenshot.
 
 So there you go, we're doing okay here methodologically and I think we now know we need the GB Studio nothing to be the Blank Project and not the Sample Project. Thank god for cold hard logic and not at all any emotional decision making ever in my games.
+
+---
+
+# Adventure Game Studio (23-04-2021 10:43)
+
+Started in on [AGS](https://www.adventuregamestudio.co.uk/site/ags/) this morning after we had finished up our morning game playing. Downloaded the current version (3.5). Fired it up. When starting a new project there *is* a "Blank" template to select (though it explicitly advises you against this which is kind of interesting, I'll need to get some screenshots).
+
+But the Blank template isn't compilable immediately because you need a room. So I stared at the UI until I worked out how to add a room (blank of course). But then it still wouldn't compile because somewhere it's set that the starting room is "-1" and that's not a valid room and so, no. But as yet, just in flailing around in the UI (which is not simple) I cannot find where the room is set to -1 and I'm wondering if it's a default that's not explicitly set anywhere but it rather something I need to explicitly encode myself somewhere in the code or one of the many lists of properties.
+
+Which is to say that this is an interesting one processually because of *how hard it is* to release the blank template. Is this then a case for switching (as advised by the tool itself) to a more complex default template? Or do I fight onwards to find my way to blankness? Maybe I can look at the template, find out where the fuck it specifies the starting room and then reverse engineer that into the blank template? Quite a struggle. The struggle is real.
+
+So anyway, back later with the results of this, just wanted to update you.
