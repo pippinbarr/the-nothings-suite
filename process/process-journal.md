@@ -586,3 +586,21 @@ Ctrl-V gives you version information, resolution, graphics library, sprite cache
 There's something about the fact that these debug menus talk about a room, walk-behinds, a player with a specific location, the possibilities of multiple characters and multiple rooms, that makes it feel like I'm not looking at just a blank black expanse but actually a darkened room. That there's someone in there and I just can't see them because the light it off. Without the debug information I think that sense of presence wouldn't really be generated, even though I know in some sense there "is" a character in the room because I saw that option existed in the tool that created the build.
 
 Meanwhile, just figuring out how to release this nothing has been a pain in the ass. It's an `.exe`, so a binary rather than a webpage, and a fully fledged application rather than a ROM file or similar. I tried to put it in as a "release" on GitHub, but this assumes it's a build of the overall repository which of course it isn't, it's just a binary from one of the many parts of the repo. In the end I've settled on a .zip of the application inside the source for the AGS project, which is non-ideal and breaking the structure the tool came up with, but at least allows me to allow people to download it successfully I think.
+
+---
+
+# PuzzleScript addendum (23-04-2021 15:38)
+
+[@zarawsome let me know](https://twitter.com/zarawesome/status/1385587492573913090?s=20) that PuzzleScript actually does have a Blank Project option hidden inside one of its menus. Under "advanced" which is both funny and of course appropriate because it would require the most work (and actually more than one engine kind of warns off using blank templates in case you're new and might get confused).
+
+This did lead to some anguish because going with my new rules would suggest having to shift the PuzzleScript Nothing to this Blank Project. BUT! Fortunately(?) it doesn't actually run as is, because it doesn't think there's a "cartridge" loaded by default and has the following error:
+
+```
+No collision layers defined. All objects need to be in collision layers.
+```
+
+It's true that I could find out how to define a collision layer and so forth, and that might be in the spirit of things (certainly in the spirit of the AGS saga above), but I think I'm mostly comfortable with leaving it alone? Or am I? Shit...
+
+I mean, just for interest's sake I followed the error messages along through comparisons with a non-empty project. There *is* something interesting about the gradual construction of a viable project by responding to the messages about non-viability from the engine to be honest. EVEN THOUGH the result is just a disappointing single coloured screen, there's probably something kind of strong about the processual element if I document the "conversation" that exists between me and the system to find out what's good enough to count as nothing?
+
+Or ... I don't know, I'll sleep on that.
