@@ -50,6 +50,7 @@ The resulting games are as diverse as the engines that made them, and offer an o
 * [ZZT](http://zzt.org/) (playable online thanks to [Zeta](https://zeta.asie.pl/))
 * [batari Basic](http://bataribasic.com/)
 * [GB Studio](https://www.gbstudio.dev/)
+* [Adventure Game Studio](https://www.adventuregamestudio.co.uk/site/ags/)
 
 If you have a tool you'd like to see added to the Suite, let me know and I'll do my best.
 

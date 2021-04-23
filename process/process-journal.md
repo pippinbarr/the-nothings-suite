@@ -556,3 +556,33 @@ But the Blank template isn't compilable immediately because you need a room. So 
 Which is to say that this is an interesting one processually because of *how hard it is* to release the blank template. Is this then a case for switching (as advised by the tool itself) to a more complex default template? Or do I fight onwards to find my way to blankness? Maybe I can look at the template, find out where the fuck it specifies the starting room and then reverse engineer that into the blank template? Quite a struggle. The struggle is real.
 
 So anyway, back later with the results of this, just wanted to update you.
+
+---
+
+# Adventure Game Studio continued (23-04-2021 14:45)
+
+Finally got a blank game working after consulting [this discussion from 2011](https://www.adventuregamestudio.co.uk/forums/index.php?topic=43797.0) that points out that your character needs to have a starting room defined, which the blank project character does not because there are no rooms defined when the software starts. It kind of begs the question why it doesn't just start with a room so it's buildable from the beginning, but there you go.
+
+I think there's something at least a bit interesting about having to *work* at getting an empty game to compile in this manner - it's definitely the most confused I've been and the most research I've had to do to produce nothing.
+
+The build itself is an `.exe`, so Windows only which is something in itself and obviously connects to the nature of the tool and its community. The other thing about the build, which just displays a black screen in fullscreen, is that it has a few commands built in, the majority of which are debug commands! So I guess there's some debug flag on by default when you start the project.
+
+Ctrl-Q will quit...
+
+Ctrl-D presents information on walk-behinds, player location, characters present in the room (complete with stats)...
+
+![](images/ags-room-stats.png)
+
+![](images/ags-characters-in-this-room.png)
+
+Ctrl-X takes you to a menu that lets you select which room to go to (there is only room 1 in this build)
+
+![](images/ags-choose-room.png)
+
+Ctrl-V gives you version information, resolution, graphics library, sprite cache information
+
+![](images/ags-version.png)
+
+There's something about the fact that these debug menus talk about a room, walk-behinds, a player with a specific location, the possibilities of multiple characters and multiple rooms, that makes it feel like I'm not looking at just a blank black expanse but actually a darkened room. That there's someone in there and I just can't see them because the light it off. Without the debug information I think that sense of presence wouldn't really be generated, even though I know in some sense there "is" a character in the room because I saw that option existed in the tool that created the build.
+
+Meanwhile, just figuring out how to release this nothing has been a pain in the ass. It's an `.exe`, so a binary rather than a webpage, and a fully fledged application rather than a ROM file or similar. I tried to put it in as a "release" on GitHub, but this assumes it's a build of the overall repository which of course it isn't, it's just a binary from one of the many parts of the repo. In the end I've settled on a .zip of the application inside the source for the AGS project, which is non-ideal and breaking the structure the tool came up with, but at least allows me to allow people to download it successfully I think.
