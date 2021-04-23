@@ -93,6 +93,7 @@ If you have a tool you'd like to see added to the Suite, let me know and I'll do
 ## Press
 
 * Rob Beschizza. [What happens when you export the simplest possible "game" from Unity and other game dev environments?](https://boingboing.net/2021/04/19/what-happens-when-you-export-the-simplest-possible-game-from-unity-and-other-game-dev-environments.html). Boing Boing. 19 April 2021.
+* Natalie Clayton. [Here's what 'nothing' looks like in 18 different game engines](https://www.pcgamer.com/heres-what-nothing-looks-like-in-18-different-game-engines/). PC Gamer. 23 April 2021.
 
 ## Additional Links
 
