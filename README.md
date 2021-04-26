@@ -28,7 +28,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 * [Nothing (batari Basic)](#nothing-batari-basic)
 * [Nothing (GB Studio)](#nothing-gb-studio)
 * [Nothing (Adventure Game Studio)](#nothing-adventure-game-studio)
-* [Nothing (LÖVE)](#nothing-love)
+* [Nothing (LÖVE)](#nothing-löve)
 
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
