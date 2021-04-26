@@ -28,6 +28,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 * [Nothing (batari Basic)](#nothing-batari-basic)
 * [Nothing (GB Studio)](#nothing-gb-studio)
 * [Nothing (Adventure Game Studio)](#nothing-adventure-game-studio)
+* [Nothing (LÖVE)](#nothing-love)
 
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
@@ -192,6 +193,16 @@ In the tradition of "print and play" games that provide instructions for how to 
 [Adventure Game Studio](https://www.adventuregamestudio.co.uk/site/ags/) is a tool for making adventure games (think *Space Quest*)! The nothing here required the most work of any nothing in the suite thus far as after starting an "Empty Game" template I wasn't able to build the game because it told me the game was set to start in room -1 which didn't exist. Then after figuring out how to add a Blank Room, it still wouldn't compile for the same reason (the new room was number 1). It took actual internet sleuthing to find out where this setting is in the tool, ultimately yielding the fact I had to change the StartingRoom property of the default character known a cCharacter (Character 0) to point to my blank room 1 instead of "(None)". The compiled game itself is actually quite interesting because despite being a black screen, various debug commands are available (Ctrl-D, Ctrl-X, Ctrl-V) that give you information about the nature of the game world (including the position of the invisible player character). This debug information in turn makes it seem more like the game is set in a very dark room, rather than being empty. It's an almost intimate nothingness?
 
 [Download this nothing (Windows)](https://pippinbarr.github.io/the-nothings-suite/ags/Build/Nothing.zip)
+
+---
+
+#### Nothing (LÖVE)
+
+[LÖVE](https://love2d.org/) is a free 2D game engine that lets you write games in Lua. I was drawn to this particular engine because [Cody Walker produced their own nothing in LÖVE](https://bhane.itch.io/nothing)! That led me to be interested in two people producing the "same" nothing, and whether it would be truly the same. In this case I think the answer is mostly yes - we both fundamentally worked with an empty Lua file at the heart. However our `.love` packages are different sizes, and we have builds for different platforms (including a significant time spent by me working out how to self-sign an Mac app so it's runnable). There are still distinct decisions being made and tools in the tool-chain that alter the final nothing in ineffable (and, yes, probably unimportant) ways.
+
+[Download this nothing (Mac)](https://pippinbarr.github.io/the-nothings-suite/love/builds/nothing-mac.zip) (You'll need to right-click the application and select open to get past the Mac OS GateKeeper)
+
+[Download this nothing (Windows)](https://pippinbarr.github.io/the-nothings-suite/love/builds/nothing-windows.zip)
 
 ---
 

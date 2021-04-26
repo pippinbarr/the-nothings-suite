@@ -604,3 +604,65 @@ It's true that I could find out how to define a collision layer and so forth, an
 I mean, just for interest's sake I followed the error messages along through comparisons with a non-empty project. There *is* something interesting about the gradual construction of a viable project by responding to the messages about non-viability from the engine to be honest. EVEN THOUGH the result is just a disappointing single coloured screen, there's probably something kind of strong about the processual element if I document the "conversation" that exists between me and the system to find out what's good enough to count as nothing?
 
 Or ... I don't know, I'll sleep on that.
+
+---
+
+# LÖVE (26-04-2021 11:20)
+
+### Context
+
+[Cody put together a nothing in LÖVE](https://bhane.itch.io/nothing) which led me to want to make one too in the interests of comparison. If two people make nothing with the same tools, are those nothings identical or not? What could the differences be? Metadata? Understandings of the underlying system? Release platforms? Etc. Cody has authorship on this one, so I've checked in with them on whether they're happy for me to have made one too and to link between them, but in the meantime I'm going through the process anyway as I think it's intriguing even if I don't officially "release" this one. I'm purposefully not looking at cody's nothing until I've finished my own for fear of influence, though I already know their Windows release is 3MB which might be meaningful (though I doubt it for reasons). Well, that and the fact that their Linux release is only 188 bytes which is... very interesting indeed and suggests radically different approaches to compilation/release on the two systems. Hmm. Anyway, can get to that later as I'll recreate my own releases which will almost certainly have similar properties.
+
+So, how does the process go?
+
+Well, [LÖVE](https://love2d.org/) is a free 2D game engine that lets you write games in Lua. I've never made anything in it but I've been impressed on multiple occasions by work I've seen Cody do in it, more their earlier experimental stuff than the more game-like stuff. I remember a brain surgery textual game I think, and it has stayed with me in a strong and ambiguous sense impression. Anyway.
+
+My main "functional" relationship to LÖVE has been accidentally hitting a key combination in Atom that launches the LÖVE loader which tells me I don't have a LÖVE program or something.
+
+### Building the `.love` package
+
+As such, we can consider me a complete beginner with LÖVE and therefore without any obvious preconceptions about how to make nothing with it. As such, I've relied on the tutorials. I have, as I write this, produced some a nothing in the sense of a `.love` file with nothing in it, but I still need to produce releasable versions of this - and all this speaks to the LÖVE process as well. So what has been happening?
+
+Well, first of all I downloaded [LÖVE](https://love2d.org/) itself for my mac.
+
+Then I went to the [Getting Started](https://love2d.org/wiki/Getting_Started) page on the website to learn how you make a LÖVE game. Importantly, though, given that I'm starting this project from scratch and therefore have some amount of discretion, I did create the `main.lua` file, but I left it blank rather than putting in the suggested "Hello, World!" code. At that moment it remained to be seen whether the LÖVE compiler/runtime engine would accept blank code as a legitimate LÖVE program. (Actually this is all making me wonder about larger philosophies in software engineering and programming language design around the legitimacy or not of a blank program.)
+
+To check this, I ran the nothing project with the LÖVE application and it ran fine, presenting the pretty boring black rectangle in a window kind of a nothing that's rather familiar. So the minimal LÖVE is a blank main script. As far as I can tell you can't get it to run without the `main.lua` file being in place, so that's the minimum in terms of my understanding, an empty Lua file.
+
+### Building for Mac
+
+To actually distribute a LÖVE game I've been following the instructions on the [Game Distribution](https://love2d.org/wiki/Game_Distribution). Notably you create a `.love` file by zipping up the game files in your project folder (in my case just the empty `main.lua`) and renaming the resulting archive with a `.love` extension. Doing that yields a `nothing.love` which is 196 bytes according to my Mac, presumably all or mostly all ZIP headers etc.
+
+To actually release the game, you then need to package the `.love` file along with the LÖVE engine itself as far as I can tell. So for a Mac release I need to essentially copy the LÖVE application on my Mac, rename it to `Nothing.app` and store the `.love` file inside the `.app` package in a specific location as well as make some other edits to have it behave correctly. Let me try this...
+
+... and indeed after following those instructions (which include changing names and bundle IDs in Info.plist as well as **removing** a section) I can run the game locally. However, this version presumably doesn't live up to Mac's security standards. It'll either be totally unrunnable on another computer, or it'll be one of those apps you have to open via the context menu to tell the computer to go ahead and run it. If it's the former, then this doesn't count as an actual release, if it's the latter then I'm satisfied... so now I need to send it over to my other laptop and see how it responds...
+
+... and it's the former, so this is not really a release at this point since it cannot be run on another system. This actually brings up another issue in the rules since I suppose I haven't actually specified that a nothing needs to be runnable, but it's kind of implied with the idea that it needs to be considered by the engine as a runnable/working game. I guess now we're asking a new question which is whether the operating system thinks so too, and that's open to interpretation in terms of whether I think it counts. But if another player on another mac can't run it, then it's not really a proper nothing game, it's just a broken piece of software, so I guess I have to pursue this further!
+
+... tried the extra step of compressing the app first, but it's still not passing muster with my computer. Heaving sigh.
+
+... carrying on with this I have now read a dizzying amount of information about creating certificates signed and unsigned. For right now it seems like an unsigned certificate is the way to get to that moment where your application can be opened in something like Mac OS (after they do the "trust this untrustworthy thing" step) and I think that's as far as I want to go *right now*, though this has interested me more generally in this whole idea of the trustworthiness of nothing. So I think I'll self sign it, but also investigate more deeply ideas around more secure signing via Apple since I do have a developer account anyway...
+
+... and hey presto that does work to create an unsigned, insecure nothing application for Mac OS. it is 15MB Because that's how large the love.app file is in the first place plus the few extra bytes my "code" represents.
+
+### Building for Windows
+
+So with that in place let me attempt to create my Windows build...
+
+Windows worked out fine with the instructions inasmuch as I have an archive for it. I need to test it on the PC Bong to find out if it works though I suppose. Let me do that now...
+
+... indeed it works.
+
+So there we go, I have two releases. But one more interesting thing!
+
+### The substance of nothing
+
+Cody's Linux release is just the file `nothing.love` but his file is 188 bytes and my file is 196 bytes. Where are those 8 bytes coming from? I'm somewhat assuming it's a difference between the ZIP utilities on our respective systems? Maybe a versioning thing? I'm assuming that Cody has a blank `main.lua` just as I do, but in creating our different packages there's 8 bytes floating around.
+
+So yeah, essentially I think we both started with a blank file called `main.lua`. Then we both zipped it and renamed the resulting archive to `nothing.love`. In that process the only place that can be causing a difference is the compression. And indeed I note that if I compress `main.lua` from the GUI in Mac OS I get a 496 byte file as a result, compared to the 196 bytes I'm getting when I zip from the terminal. Interestingly further, when I zip the file with slightly different notation I get a different size...
+
+`zip nothing.love main.lua` is 166 bytes
+
+Even weirder, I now cannot find the command I entered to get the 188 byte version of the file?
+
+Also notable: this feels competitive in an interestingly stupid way? Like, there's some weight to having the smallest possible nothing, shaving bytes off while maintaining a runnable program? At least I have an instict to prefer it and to be interested in the difference.
