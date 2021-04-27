@@ -666,3 +666,84 @@ So yeah, essentially I think we both started with a blank file called `main.lua`
 Even weirder, I now cannot find the command I entered to get the 188 byte version of the file?
 
 Also notable: this feels competitive in an interestingly stupid way? Like, there's some weight to having the smallest possible nothing, shaving bytes off while maintaining a runnable program? At least I have an instict to prefer it and to be interested in the difference.
+
+---
+
+# PuzzleScript v.2 (27-04-2021 15:33)
+
+Well, having thought about [@zarawesome](https://twitter.com/zarawesome)'s note that there's a blank project in PuzzleScript I'm going to document the process of turning that into a viable Nothing. This will be an additive process of trying to convince PuzzleScript to accept the code as a game. It's a bit like AGS earlier on in terms of figuring out the minimal changes to a blank project to make it compilable, but I think a little bit more involved, a few more error messages.
+
+I quite like this idea of "nothing by accretion" because it makes essentially no sense at all.
+
+Let us begin.
+
+We start with the blank project template under the "Advanced" section. When we run it we see:
+
+```
+No collision layers defined. All objects need to be in collision layers.
+```
+
+Now obviously this isn't telling me how to solve this problem, but I can see a COLLISIONLAYERS section in the comments of the code, so I need to put something in there. I'll have to refer to a non-blank project to understand what that is, so I'm going to have the non-blank standard project open at the same time to refer to how it deals with these different (apparently mandatory) categories...
+
+In the non-blank game there are three lines listed in COLLISIONLAYERS, which are `Background`, `Target`, and `Player,Wall,Crate`. I don't understand what that means particularly, but I'll throw the first one into my project and see how it response.
+
+So, I add `Background` to my COLLISIONLAYERS section and...
+
+```
+line 16 : Cannot add "BACKGROUND" to a collision layer; it has not been declared.
+You need to have some objects defined
+```
+
+Fair. The Background doesn't exist. I need to have some objects defined. I see there is an OBJECTS section, and that in the non-black project there is code defining this Background thing and its color (GREEN), so I'll do the same...
+
+So, I add
+
+```
+Background
+BLACK
+```
+
+to the OBJECTS section and...
+
+```
+error, didn't find any object called player, either in the objects section, or the legends section. there must be a player!
+No levels found. Add some levels!
+```
+
+So apparently the Player object is the most important thing and the game cannot live without it. Also I have no levels, which... yes that's true.
+
+Let's exchange our Background for a Player by adding
+
+```
+Player
+GREEN
+```
+
+to the OBJECTS section. And swapping Player into the COLLISIONLAYERS Now we get...
+
+```
+you have to define something to be the background
+No levels found. Add some levels!
+```
+
+Okay well I guess we need a background, so let's reinstate that in OBJECTS and COLLISIONLAYERS...
+
+```
+No levels found. Add some levels!
+```
+
+Great! So it seems like we have out minimal set of things in the world. A Player and a Background, both of which have to have a color and a presence in the collision layers. Now we have to add a level. Looking at the non-blank template, I see that a level is a little ASCII drawing with symbols representing bits of the level. This draws my attention to the fact that there is a LEGEND section that seems to associate symbols with objects, so I'll first add a LEGEND entry for the player. Of course that doesn't solve anything, but now I can use that to define a level with exactly one tile consisting of the player???
+
+Which yields
+
+```
+Successful Compilation, generated 0 instructions.
+```
+
+So that's good. I really like the 0 instructions in particular.
+
+Weirdly when it runs I don't see the Player color which is what I would assume, I see the Background color. As if the player just isn't there.... oh wait. I have the collision layers in the wrong order, hadn't understood they're also the graphical layering system. When I move the Player to the bottom fo the layers we do indeed see just a single tile taking up the whole level in the color of the player. e.g. we have a level that "is" the player against a background (which you can't see because there's only one tile being displayed).
+
+And that would appear to be the minimum. A player and a background (each with colors and positions in the collision layers) and a level with a single tile in it representing the player (though note the single tile could represent the Background if we wanted, there's no requirement to have the Player actually in the level you create).
+
+Not a game you can finish, not as sophisticated as the Sokoban from the default, but certainly more nothing-y.

@@ -13,7 +13,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 1. [Nothing (Inky)](#nothing-inky)
 1. [Nothing (Bitsy)](#nothing-bitsy)
 1. [Nothing (Flickgame)](#nothing-flickgame)
-1. [Nothing (PuzzleScript)](#nothing-puzzlescript)
+1. [Nothing (PuzzleScript)](#nothing-puzzlescript) (two versions!)
 1. [Nothing (PICO-8)](#nothing-pico-8)
 1. [Nothing (Inform 7)](#nothing-inform-7)
 1. [Nothing (Construct 3)](#nothing-construct-3)
@@ -68,9 +68,19 @@ You can also read about the suite's [development and thought process](#would-you
 
 #### [Nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/nothing.html) (PuzzleScript)
 
-[PuzzleScript](https://www.puzzlescript.net/) is an open source puzzle game engine by [Increpare](https://www.increpare.com/index.html). This "nothing" is the only "playable game" in this overall suite in the traditional sense: a simple [Sokoban](https://en.wikipedia.org/wiki/Sokoban) level the player can interact with and complete (walkthrough: press the right arrow three times!). This is another nod to accessibility, in this case helping to explain to the user of PuzzleScript through example how its underlying scripting language works at its most fundamental. This is multi-layered nothing - with no additional level data, nor PuzzleScript, nor underlying JavaScript - pointing to the complexity of even "simple" tools.
+[PuzzleScript](https://www.puzzlescript.net/) is an open source puzzle game engine by [Increpare](https://www.increpare.com/index.html).
 
-[Play this nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/nothing.html)
+##### v.1
+
+This "nothing" is the only "playable game" in this overall suite in the traditional sense: a simple [Sokoban](https://en.wikipedia.org/wiki/Sokoban) level the player can interact with and complete (walkthrough: press the right arrow three times!). This is another nod to accessibility, in this case helping to explain to the user of PuzzleScript through example how its underlying scripting language works at its most fundamental. This is multi-layered nothing - with no additional level data, nor PuzzleScript, nor underlying JavaScript - pointing to the complexity of even "simple" tools.
+
+[Play this nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/v1/nothing.html)
+
+##### v.2
+
+This "nothing" has been created in response to [@zarawesome](https://twitter.com/zarawesome)'s note that there is actually a Blank Project template available in PuzzleScript. I started with the Blank Template, but it doesn't compile successfully. As such, [I kept adding elements in response to the error messages](process/process-journal.md#PuzzleScript-v-2-27-04-2021-1533) until I had what seems to be the minimum project viewed as acceptable by the PuzzleScript engine. It's a single tile level with just the player standing there, rather confined by the 1 dimensionality of their world. Would it be more nothing-y if it was just the background, with no player? Hard to say.
+
+[Play this nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/v2/nothing.html)
 
 ---
 
