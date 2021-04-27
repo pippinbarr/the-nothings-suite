@@ -78,7 +78,7 @@ This "nothing" is the only "playable game" in this overall suite in the traditio
 
 ##### v.2
 
-This "nothing" has been created in response to [@zarawesome](https://twitter.com/zarawesome)'s note that there is actually a Blank Project template available in PuzzleScript. I started with the Blank Template, but it doesn't compile successfully. As such, [I kept adding elements in response to the error messages](process/process-journal.md#PuzzleScript-v-2-27-04-2021-1533) until I had what seems to be the minimum project viewed as acceptable by the PuzzleScript engine. It's a single tile level with just the player standing there, rather confined by the 1 dimensionality of their world. Would it be more nothing-y if it was just the background, with no player? Hard to say.
+This "nothing" has been created in response to [@zarawesome](https://twitter.com/zarawesome)'s note that there is actually a Blank Project template available in PuzzleScript. I started with the Blank Template, but it doesn't compile successfully. As such, [I kept adding elements in response to the error messages](process/process-journal.md#PuzzleScript-v2-27-04-2021-1533) until I had what seems to be the minimum project viewed as acceptable by the PuzzleScript engine. It's a single tile level with just the player standing there, rather confined by the 1 dimensionality of their world. Would it be more nothing-y if it was just the background, with no player? Hard to say.
 
 [Play this nothing](https://pippinbarr.github.io/the-nothings-suite/puzzlescript/v2/nothing.html)
 
