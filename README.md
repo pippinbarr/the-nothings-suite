@@ -30,6 +30,9 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 1. [Nothing (Adventure Game Studio)](#nothing-adventure-game-studio)
 1. [Nothing (LÖVE)](#nothing-löve)
 
+Nothings made by other people:
+1. [Nothing (dreams)](#nothing-dreams-by-karsten-staack) (by Karsten Staack)
+
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
 ---
@@ -213,6 +216,14 @@ In the tradition of "print and play" games that provide instructions for how to 
 [Download this nothing (Mac)](https://pippinbarr.github.io/the-nothings-suite/love/builds/nothing-mac.zip) (You'll need to right-click the application and select open to get past the Mac OS GateKeeper)
 
 [Download this nothing (Windows)](https://pippinbarr.github.io/the-nothings-suite/love/builds/nothing-windows.zip)
+
+---
+
+#### Nothing (dreams) (by [Karsten Staack](https://indreams.me/idUserProfile))
+
+[dreams](https://indreams.me/) is PlayStation game/experience creation tool that I barely understand, never having actually used it. Karsten ([@iUserProfile](https://twitter.com/iUserProfile)) saw *The Nothings Suite* and went ahead and created a nothing in this particular environment, being so kind as to specifically ask about the methodology involved in creating a "real nothing". I don't actually know how you view these things in dreams in the first place, so hopefully if you're a dreamer you can do something with the nothing's dreams homepage below!
+
+[Nothing's dreams homepage](https://indreams.me/dream/mcqcPFUCcVh)
 
 ---
 
