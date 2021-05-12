@@ -233,7 +233,7 @@ A far better dreams explanation from Karsten:
 
 > Thus Dreams files never exceed the size of a low figure Megabyte range.
 
-[Nothing's dreams homepage](https://indreams.me/dream/mcqcPFUCcVh)
+[Visit this Nothing's homepage](https://indreams.me/dream/mcqcPFUCcVh)
 
 ---
 
