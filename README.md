@@ -223,6 +223,16 @@ In the tradition of "print and play" games that provide instructions for how to 
 
 [dreams](https://indreams.me/) is PlayStation game/experience creation tool that I barely understand, never having actually used it. Karsten ([@iUserProfile](https://twitter.com/iUserProfile)) saw *The Nothings Suite* and went ahead and created a nothing in this particular environment, being so kind as to specifically ask about the methodology involved in creating a "real nothing". I don't actually know how you view these things in dreams in the first place, so hopefully if you're a dreamer you can do something with the nothing's dreams homepage below!
 
+A far better dreams explanation from Karsten:
+
+> Dreams is a creation tool available on Playstation 4 and 5 based on the Bubblebath engine. It offers one of the most diverse and deepest multimedia toolsets "in a package" you can think of, including 3d and 2d graphics, sound and music tools as well as logic, animation and virtual reality (PSVR), while being the platform and community hub for these creations at the same time.
+
+> Unlike most contemporary 3d engines the Bubblebath engine is not based on the manipulation of polygons but the manipulation of point clouds.
+
+> Users are offered various analog inputs to create in Dreams, making use of analog sticks and buttons, gyrocontrols and camera tracking.
+
+> Thus Dreams files never exceed the size of a low figure Megabyte range.
+
 [Nothing's dreams homepage](https://indreams.me/dream/mcqcPFUCcVh)
 
 ---
