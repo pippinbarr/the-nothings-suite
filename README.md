@@ -33,7 +33,7 @@ _The Nothings Suite_ is a collection of (extremely) short videogames made with d
 Nothings made by other people:
 
 1. [Nothing (dreams)](#nothing-dreams-by-karsten-staack) (by Karsten Staack)
-1. [Nothing (GDevelop)](#nothing-gdevelop-with-yadier-jimenez) (by Yadier Jimenez)
+1. [Nothing (GDevelop)](#nothing-gdevelop-by-yadier-jimenez) (by Yadier Jimenez)
 
 You can also read about the suite's [development and thought process](#would-you-like-to-know-more).
 
